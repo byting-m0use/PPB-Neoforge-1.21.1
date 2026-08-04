@@ -1,5 +1,8 @@
 package com.blueprint_studios.ppb;
 
+import com.blueprint_studios.ppb.blocks.ModBlocks;
+import com.blueprint_studios.ppb.items.ModCreativeModeTabs;
+import com.blueprint_studios.ppb.items.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -21,7 +24,10 @@ public class PoppyPlaytimeBlueprintMod {
     public PoppyPlaytimeBlueprintMod(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
 
+        ModBlocks.register(modEventBus);
+        ModItems.register(modEventBus);
 
+        ModCreativeModeTabs.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
 
