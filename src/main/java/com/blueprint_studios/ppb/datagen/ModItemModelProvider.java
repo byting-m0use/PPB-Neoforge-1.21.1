@@ -1,6 +1,7 @@
 package com.blueprint_studios.ppb.datagen;
 
 import com.blueprint_studios.ppb.PoppyPlaytimeBlueprintMod;
+import com.blueprint_studios.ppb.items.ModItems;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -17,7 +18,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-
+        handheldItem(ModItems.OMNITOOL.get());
     }
 
     private void buttonItem(DeferredBlock<?> deferredBlock, DeferredBlock<Block> baseBlock){
