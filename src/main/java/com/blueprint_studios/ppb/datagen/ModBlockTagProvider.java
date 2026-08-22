@@ -1,6 +1,8 @@
 package com.blueprint_studios.ppb.datagen;
 
 import com.blueprint_studios.ppb.PoppyPlaytimeBlueprintMod;
+import com.blueprint_studios.ppb.blocks.ModBlocks;
+import com.blueprint_studios.ppb.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -17,6 +19,30 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+        tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(ModBlocks.SQUARE_VANILLA_BRICKS.get())
+                .add(ModBlocks.BIG_VANILLA_BRICKS.get())
 
+                .add(ModBlocks.SQUARE_WHITE_BRICKS.get())
+                .add(ModBlocks.BIG_WHITE_BRICKS.get())
+                .add(ModBlocks.WHITE_BRICKS.get())
+
+                .add(ModBlocks.SQUARE_BLACK_BRICKS.get())
+                .add(ModBlocks.BIG_BLACK_BRICKS.get())
+                .add(ModBlocks.BLACK_BRICKS.get())
+                .add(ModBlocks.WHITE_FACTORY_TILES.get())
+                .add(ModBlocks.BIG_PLUSH_BRICKS.get());
+
+        tag(BlockTags.OCCLUDES_VIBRATION_SIGNALS)
+                .add(ModBlocks.BLACK_ARCADE_CARPET.get());
+
+        tag(BlockTags.DAMPENS_VIBRATIONS)
+                .add(ModBlocks.BLACK_ARCADE_CARPET.get());
+
+        tag(BlockTags.WOOL)
+                .add(ModBlocks.BLACK_ARCADE_CARPET.get());
+
+        tag(ModTags.Blocks.OMNI_TOOL_INTERACTABLE)
+                .add(ModBlocks.YELLOW_WHITE_FACTORY_TILES.get());
     }
 }

@@ -25,6 +25,23 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+        dropSelf(ModBlocks.SQUARE_VANILLA_BRICKS.get());
+        dropSelf(ModBlocks.BIG_VANILLA_BRICKS.get());
+
+        dropSelf(ModBlocks.SQUARE_WHITE_BRICKS.get());
+        dropSelf(ModBlocks.BIG_WHITE_BRICKS.get());
+        dropSelf(ModBlocks.WHITE_BRICKS.get());
+
+        dropSelf(ModBlocks.SQUARE_BLACK_BRICKS.get());
+        dropSelf(ModBlocks.BIG_BLACK_BRICKS.get());
+        dropSelf(ModBlocks.BLACK_BRICKS.get());
+
+        dropSelf(ModBlocks.BIG_PLUSH_BRICKS.get());
+
+        dropSelf(ModBlocks.WHITE_FACTORY_TILES.get());
+        dropSelf(ModBlocks.YELLOW_WHITE_FACTORY_TILES.get());
+
+        dropSelf(ModBlocks.BLACK_ARCADE_CARPET.get());
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

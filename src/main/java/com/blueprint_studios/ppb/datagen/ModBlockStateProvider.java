@@ -1,11 +1,15 @@
 package com.blueprint_studios.ppb.datagen;
 
 import com.blueprint_studios.ppb.PoppyPlaytimeBlueprintMod;
+import com.blueprint_studios.ppb.blocks.ModBlocks;
+import net.minecraft.core.Direction;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.DoorBlock;
+import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.IronBarsBlock;
 import net.neoforged.neoforge.client.model.generators.BlockModelBuilder;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
+import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -17,7 +21,23 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+        blockWithItem(ModBlocks.SQUARE_VANILLA_BRICKS);
+        blockWithItem(ModBlocks.BIG_VANILLA_BRICKS);
 
+        blockWithItem(ModBlocks.SQUARE_WHITE_BRICKS);
+        blockWithItem(ModBlocks.BIG_WHITE_BRICKS);
+        blockWithItem(ModBlocks.WHITE_BRICKS);
+
+        blockWithItem(ModBlocks.SQUARE_BLACK_BRICKS);
+        blockWithItem(ModBlocks.BIG_BLACK_BRICKS);
+        blockWithItem(ModBlocks.BLACK_BRICKS);
+
+        blockWithItem(ModBlocks.BIG_PLUSH_BRICKS);
+
+        blockWithItem(ModBlocks.WHITE_FACTORY_TILES);
+        horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.YELLOW_WHITE_FACTORY_TILES);
+
+        blockWithItem(ModBlocks.BLACK_ARCADE_CARPET);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock){
@@ -55,6 +75,40 @@ public class ModBlockStateProvider extends BlockStateProvider {
         }else{
             System.err.println(deferredBlock.getId().getPath() + " is not a DoorBlock.");
         }
+    }
+
+    private void horizontalDirectionBlockWithItemDifferentTextures(DeferredBlock<?> deferredBlock){
+        if(!(deferredBlock.get() instanceof HorizontalDirectionalBlock)) return;
+
+        String name = deferredBlock.getId().getPath();
+
+        ModelFile northModel = models().cubeAll(name + "_north",
+                modLoc("block/" + name + "_north"));
+
+        ModelFile eastModel = models().cubeAll(name + "_east",
+                modLoc("block/" + name + "_east"));
+
+        ModelFile southModel = models().cubeAll(name + "_south",
+                modLoc("block/" + name + "_south"));
+
+        ModelFile westModel = models().cubeAll(name + "_west",
+                modLoc("block/" + name + "_west"));
+        getVariantBuilder(deferredBlock.get())
+                .forAllStates(state -> {
+                    Direction direction = state.getValue(HorizontalDirectionalBlock.FACING);
+
+                    return ConfiguredModel.builder()
+                            .modelFile(switch (direction) {
+                                case NORTH -> northModel;
+                                case EAST -> eastModel;
+                                case WEST -> westModel;
+                                case SOUTH -> southModel;
+                                default -> northModel;
+                            }).build();
+                });
+
+        simpleBlockItem(deferredBlock.get(), northModel);
+
     }
 
     private void blockItem(DeferredBlock<?> deferredBlock){

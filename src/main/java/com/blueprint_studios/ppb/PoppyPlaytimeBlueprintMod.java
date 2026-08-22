@@ -24,8 +24,8 @@ public class PoppyPlaytimeBlueprintMod {
     public PoppyPlaytimeBlueprintMod(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
 
-        ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         ModCreativeModeTabs.register(modEventBus);
 
