@@ -30,8 +30,15 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.SQUARE_BLACK_BRICKS.get())
                 .add(ModBlocks.BIG_BLACK_BRICKS.get())
                 .add(ModBlocks.BLACK_BRICKS.get())
+
+                .add(ModBlocks.PLUSH_BRICKS.get())
+                .add(ModBlocks.BIG_PLUSH_BRICKS.get())
+                .add(ModBlocks.WHITE_RED_BIG_PLUSH_BRICKS.get())
+                .add(ModBlocks.WHITE_BLUE_BIG_PLUSH_BRICKS.get())
+
                 .add(ModBlocks.WHITE_FACTORY_TILES.get())
-                .add(ModBlocks.BIG_PLUSH_BRICKS.get());
+                .add(ModBlocks.YELLOW_WHITE_FACTORY_TILES.get())
+                .add(ModBlocks.RED_WHITE_FACTORY_TILES.get());
 
         tag(BlockTags.OCCLUDES_VIBRATION_SIGNALS)
                 .add(ModBlocks.BLACK_ARCADE_CARPET.get());
@@ -43,6 +50,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.BLACK_ARCADE_CARPET.get());
 
         tag(ModTags.Blocks.OMNI_TOOL_INTERACTABLE)
-                .add(ModBlocks.YELLOW_WHITE_FACTORY_TILES.get());
+                .add(ModBlocks.YELLOW_WHITE_FACTORY_TILES.get())
+                .add(ModBlocks.RED_WHITE_FACTORY_TILES.get())
+                .add(ModBlocks.BLUE_WHITE_FACTORY_TILES.get());
     }
 }

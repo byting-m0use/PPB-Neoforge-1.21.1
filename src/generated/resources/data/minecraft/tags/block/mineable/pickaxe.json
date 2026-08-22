@@ -8,7 +8,12 @@
     "poppy_playtime_blueprint:square_black_bricks",
     "poppy_playtime_blueprint:big_black_bricks",
     "poppy_playtime_blueprint:black_bricks",
+    "poppy_playtime_blueprint:plush_bricks",
+    "poppy_playtime_blueprint:big_plush_bricks",
+    "poppy_playtime_blueprint:white_red_big_plush_bricks",
+    "poppy_playtime_blueprint:white_blue_big_plush_bricks",
     "poppy_playtime_blueprint:white_factory_tiles",
-    "poppy_playtime_blueprint:big_plush_bricks"
+    "poppy_playtime_blueprint:yellow_white_factory_tiles",
+    "poppy_playtime_blueprint:red_white_factory_tiles"
   ]
 }

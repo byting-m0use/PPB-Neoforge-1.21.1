@@ -1,2 +1,29 @@
 {
+  "item.poppy_playtime_blueprint.omnitool": "Omni-Tool",
+
+  "block.poppy_playtime_blueprint.big_bricks": "Big Bricks",
+  "block.poppy_playtime_blueprint.square_bricks": "Square Bricks",
+
+  "block.poppy_playtime_blueprint.black_bricks": "Black Bricks",
+  "block.poppy_playtime_blueprint.big_black_bricks": "Big Black Bricks",
+  "block.poppy_playtime_blueprint.square_black_bricks": "Square Black Bricks",
+
+  "block.poppy_playtime_blueprint.white_bricks": "White Bricks",
+  "block.poppy_playtime_blueprint.big_white_bricks": "Big White Bricks",
+  "block.poppy_playtime_blueprint.square_white_bricks": "Square White Bricks",
+
+  "block.poppy_playtime_blueprint.plush_bricks": "Plush Bricks",
+  "block.poppy_playtime_blueprint.big_plush_bricks": "Big Plush Bricks",
+  "block.poppy_playtime_blueprint.white_blue_big_plush_bricks": "Big Blue & White Plush Bricks",
+  "block.poppy_playtime_blueprint.white_red_big_plush_bricks": "Big Red & White Plush Bricks",
+
+  "block.poppy_playtime_blueprint.white_factory_tiles": "White Factory Tiles",
+  "block.poppy_playtime_blueprint.red_white_factory_tiles": "Red & White Factory Tiles",
+  "block.poppy_playtime_blueprint.blue_white_factory_tiles": "Blue & White Factory Tiles",
+  "block.poppy_playtime_blueprint.yellow_white_factory_tiles": "Yellow & White Factory Tiles",
+
+  "block.poppy_playtime_blueprint.black_arcade_carpet": "Black Arcade Carpet",
+
+  "tabs.poppy_playtime_blueprint.items": "PPT: Items",
+  "tabs.poppy_playtime_blueprint.blocks": "PPT: Blocks"
 }

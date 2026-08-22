@@ -32,10 +32,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.BIG_BLACK_BRICKS);
         blockWithItem(ModBlocks.BLACK_BRICKS);
 
+        blockWithItem(ModBlocks.PLUSH_BRICKS);
         blockWithItem(ModBlocks.BIG_PLUSH_BRICKS);
+        blockWithItem(ModBlocks.WHITE_RED_BIG_PLUSH_BRICKS);
+        blockWithItem(ModBlocks.WHITE_BLUE_BIG_PLUSH_BRICKS);
 
         blockWithItem(ModBlocks.WHITE_FACTORY_TILES);
         horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.YELLOW_WHITE_FACTORY_TILES);
+        horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.RED_WHITE_FACTORY_TILES);
+        horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.BLUE_WHITE_FACTORY_TILES);
 
         blockWithItem(ModBlocks.BLACK_ARCADE_CARPET);
     }
