@@ -54,8 +54,11 @@ public class ModBlocks {
     
    public static DeferredBlock<Block> WHITE_BLUE_BIG_PLUSH_BRICKS = registerBlock("white_blue_big_plush_bricks",
             () -> new Block(BlockBehaviour.Properties.of().strength(2.0f, 3.0f).sound(SoundType.WOOL)));
-    
-   public static DeferredBlock<Block> WHITE_FACTORY_TILES = registerBlock("white_factory_tiles",
+
+   public static DeferredBlock<Block> WHITE_YELLOW_BIG_PLUSH_BRICKS = registerBlock("white_yellow_big_plush_bricks",
+            () -> new Block(BlockBehaviour.Properties.of().strength(2.0f, 3.0f).sound(SoundType.WOOL)));
+
+    public static DeferredBlock<Block> WHITE_FACTORY_TILES = registerBlock("white_factory_tiles",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS)));
     
    public static DeferredBlock<FactoryTilesBlock> YELLOW_WHITE_FACTORY_TILES = registerBlock("yellow_white_factory_tiles",

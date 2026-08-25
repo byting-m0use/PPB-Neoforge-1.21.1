@@ -35,6 +35,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.BIG_PLUSH_BRICKS.get())
                 .add(ModBlocks.WHITE_RED_BIG_PLUSH_BRICKS.get())
                 .add(ModBlocks.WHITE_BLUE_BIG_PLUSH_BRICKS.get())
+                .add(ModBlocks.WHITE_YELLOW_BIG_PLUSH_BRICKS.get())
 
                 .add(ModBlocks.WHITE_FACTORY_TILES.get())
                 .add(ModBlocks.YELLOW_WHITE_FACTORY_TILES.get())

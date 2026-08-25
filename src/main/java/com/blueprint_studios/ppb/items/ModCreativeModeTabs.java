@@ -53,6 +53,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.WHITE_RED_BIG_PLUSH_BRICKS);
                         output.accept(ModBlocks.WHITE_BLUE_BIG_PLUSH_BRICKS);
                         output.accept(ModBlocks.WHITE_BLUE_BIG_PLUSH_BRICKS);
+                        output.accept(ModBlocks.WHITE_YELLOW_BIG_PLUSH_BRICKS);
 
                         output.accept(ModBlocks.BLACK_ARCADE_CARPET);
                     })

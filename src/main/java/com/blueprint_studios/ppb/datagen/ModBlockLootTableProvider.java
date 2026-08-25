@@ -40,6 +40,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.BIG_PLUSH_BRICKS.get());
         dropSelf(ModBlocks.WHITE_RED_BIG_PLUSH_BRICKS.get());
         dropSelf(ModBlocks.WHITE_BLUE_BIG_PLUSH_BRICKS.get());
+        dropSelf(ModBlocks.WHITE_YELLOW_BIG_PLUSH_BRICKS.get());
 
         dropSelf(ModBlocks.WHITE_FACTORY_TILES.get());
         dropSelf(ModBlocks.YELLOW_WHITE_FACTORY_TILES.get());
