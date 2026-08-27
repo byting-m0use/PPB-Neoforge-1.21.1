@@ -7,6 +7,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.DoorBlock;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.IronBarsBlock;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.client.model.generators.BlockModelBuilder;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
@@ -44,6 +45,16 @@ public class ModBlockStateProvider extends BlockStateProvider {
         horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.BLUE_WHITE_FACTORY_TILES);
 
         blockWithItem(ModBlocks.BLACK_ARCADE_CARPET);
+
+        blockWithItem(ModBlocks.BLUE_LARGE_FLOORTILE);
+        blockWithItem(ModBlocks.RED_LARGE_FLOORTILE);
+        blockWithItem(ModBlocks.YELLOW_LARGE_FLOORTILE);
+        blockWithItem(ModBlocks.WHITE_LARGE_FLOORTILE);
+        blockWithItem(ModBlocks.SECURITY_OFFICE_FLOORTILE);
+
+        blockWithItem(ModBlocks.CONCRETE_FLOORING);
+
+        blockWithItem(ModBlocks.GREY_WOOD_PLANKS);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock){

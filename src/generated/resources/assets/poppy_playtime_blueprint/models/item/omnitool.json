@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "poppy_playtime_blueprint:item/omnitool"
-  }
-}

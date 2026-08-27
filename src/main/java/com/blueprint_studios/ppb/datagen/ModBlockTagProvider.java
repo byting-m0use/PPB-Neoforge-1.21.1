@@ -6,6 +6,7 @@ import com.blueprint_studios.ppb.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -39,7 +40,17 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
                 .add(ModBlocks.WHITE_FACTORY_TILES.get())
                 .add(ModBlocks.YELLOW_WHITE_FACTORY_TILES.get())
-                .add(ModBlocks.RED_WHITE_FACTORY_TILES.get());
+                .add(ModBlocks.RED_WHITE_FACTORY_TILES.get())
+
+                .add(ModBlocks.RED_LARGE_FLOORTILE.get())
+                .add(ModBlocks.WHITE_LARGE_FLOORTILE.get())
+                .add(ModBlocks.BLUE_LARGE_FLOORTILE.get())
+                .add(ModBlocks.YELLOW_LARGE_FLOORTILE.get())
+                .add(ModBlocks.SECURITY_OFFICE_FLOORTILE.get())
+
+                .add(ModBlocks.CONCRETE_FLOORING.get())
+
+                .add(ModBlocks.GREY_WOOD_PLANKS.get());
 
         tag(BlockTags.OCCLUDES_VIBRATION_SIGNALS)
                 .add(ModBlocks.BLACK_ARCADE_CARPET.get());

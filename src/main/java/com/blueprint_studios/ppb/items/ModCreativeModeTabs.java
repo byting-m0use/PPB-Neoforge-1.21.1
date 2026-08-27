@@ -20,7 +20,7 @@ public class ModCreativeModeTabs {
     public static final Supplier<CreativeModeTab> POPPY_PLAYTIME_ITEMS = CREATIVE_MODE_TABS.register("items",
             () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModItems.OMNITOOL.get()))
-                    .title(Component.translatable("tabs.poppy_playtime_blueprint.items"))
+                    .title(Component.translatable("tabs.ppb.items"))
                     .displayItems((itemDisplayParameters, output) -> {
                             output.accept(ModItems.OMNITOOL);
                     })
@@ -29,7 +29,7 @@ public class ModCreativeModeTabs {
     public static final Supplier<CreativeModeTab> POPPY_PLAYTIME_BLOCKS = CREATIVE_MODE_TABS.register("blocks",
             () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModBlocks.RED_WHITE_FACTORY_TILES.get()))
-                    .title(Component.translatable("tabs.poppy_playtime_blueprint.blocks"))
+                    .title(Component.translatable("tabs.ppb.blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.WHITE_FACTORY_TILES);
                         output.accept(ModBlocks.RED_WHITE_FACTORY_TILES);
@@ -56,6 +56,16 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.WHITE_YELLOW_BIG_PLUSH_BRICKS);
 
                         output.accept(ModBlocks.BLACK_ARCADE_CARPET);
+
+                        output.accept(ModBlocks.BLUE_LARGE_FLOORTILE);
+                        output.accept(ModBlocks.RED_LARGE_FLOORTILE);
+                        output.accept(ModBlocks.YELLOW_LARGE_FLOORTILE);
+                        output.accept(ModBlocks.WHITE_LARGE_FLOORTILE);
+                        output.accept(ModBlocks.SECURITY_OFFICE_FLOORTILE);
+
+                        output.accept(ModBlocks.CONCRETE_FLOORING);
+
+                        output.accept(ModBlocks.GREY_WOOD_PLANKS);
                     })
                     .build());
 

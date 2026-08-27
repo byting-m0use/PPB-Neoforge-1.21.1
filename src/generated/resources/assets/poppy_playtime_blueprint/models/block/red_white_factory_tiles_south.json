@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "poppy_playtime_blueprint:block/red_white_factory_tiles_south"
-  }
-}

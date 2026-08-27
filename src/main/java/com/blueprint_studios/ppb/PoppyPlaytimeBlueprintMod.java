@@ -18,7 +18,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 @Mod(PoppyPlaytimeBlueprintMod.MOD_ID)
 public class PoppyPlaytimeBlueprintMod {
-    public static final String MOD_ID = "poppy_playtime_blueprint";
+    public static final String MOD_ID = "ppb";
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public PoppyPlaytimeBlueprintMod(IEventBus modEventBus, ModContainer modContainer) {

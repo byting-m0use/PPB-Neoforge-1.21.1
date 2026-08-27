@@ -1,0 +1,40 @@
+{
+  "item.ppb.omnitool": "Omni-Tool",
+
+  "block.ppb.big_bricks": "Big Bricks",
+  "block.ppb.square_bricks": "Square Bricks",
+
+  "block.ppb.black_bricks": "Black Bricks",
+  "block.ppb.big_black_bricks": "Big Black Bricks",
+  "block.ppb.square_black_bricks": "Square Black Bricks",
+
+  "block.ppb.white_bricks": "White Bricks",
+  "block.ppb.big_white_bricks": "Big White Bricks",
+  "block.ppb.square_white_bricks": "Square White Bricks",
+
+  "block.ppb.plush_bricks": "Plush Bricks",
+  "block.ppb.big_plush_bricks": "Big Plush Bricks",
+  "block.ppb.white_blue_big_plush_bricks": "Big Blue & White Plush Bricks",
+  "block.ppb.white_red_big_plush_bricks": "Big Red & White Plush Bricks",
+  "block.ppb.white_yellow_big_plush_bricks": "Big Yellow & White Plush Bricks",
+
+  "block.ppb.white_factory_tiles": "White Factory Tiles",
+  "block.ppb.red_white_factory_tiles": "Red & White Factory Tiles",
+  "block.ppb.blue_white_factory_tiles": "Blue & White Factory Tiles",
+  "block.ppb.yellow_white_factory_tiles": "Yellow & White Factory Tiles",
+
+  "block.ppb.white_large_floortile": "White Large Floortile",
+  "block.ppb.red_large_floortile": "Red Large Floortile",
+  "block.ppb.blue_large_floortile": "Blue Large Floortile",
+  "block.ppb.yellow_large_floortile": "Yellow Large Floortile",
+  "block.ppb.security_office_floortile": "Security Office Floortile",
+
+  "block.ppb.concrete_flooring": "Concrete Flooring",
+
+  "block.ppb.grey_wood_planks": "Grey Wood Planks",
+
+  "block.ppb.black_arcade_carpet": "Black Arcade Carpet",
+
+  "tabs.ppb.items": "PPT: Items",
+  "tabs.ppb.blocks": "PPT: Blocks"
+}
