@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ppb:block/light_blue_white_factory_tiles_west"
+  }
+}

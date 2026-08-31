@@ -7,7 +7,6 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.DoorBlock;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.IronBarsBlock;
-import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.client.model.generators.BlockModelBuilder;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
@@ -24,14 +23,17 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.SQUARE_VANILLA_BRICKS);
         blockWithItem(ModBlocks.BIG_VANILLA_BRICKS);
+        blockWithItem(ModBlocks.DIAGONAL_VANILLA_BRICKS);
 
         blockWithItem(ModBlocks.SQUARE_WHITE_BRICKS);
         blockWithItem(ModBlocks.BIG_WHITE_BRICKS);
         blockWithItem(ModBlocks.WHITE_BRICKS);
+        blockWithItem(ModBlocks.DIAGONAL_WHITE_BRICKS);
 
         blockWithItem(ModBlocks.SQUARE_BLACK_BRICKS);
         blockWithItem(ModBlocks.BIG_BLACK_BRICKS);
         blockWithItem(ModBlocks.BLACK_BRICKS);
+        blockWithItem(ModBlocks.DIAGONAL_BLACK_BRICKS);
 
         blockWithItem(ModBlocks.PLUSH_BRICKS);
         blockWithItem(ModBlocks.BIG_PLUSH_BRICKS);
@@ -43,6 +45,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.YELLOW_WHITE_FACTORY_TILES);
         horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.RED_WHITE_FACTORY_TILES);
         horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.BLUE_WHITE_FACTORY_TILES);
+        horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.PINK_WHITE_FACTORY_TILES);
+        horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.GREEN_WHITE_FACTORY_TILES);
+        horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.PURPLE_WHITE_FACTORY_TILES);
+        horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.LIGHT_BLUE_WHITE_FACTORY_TILES);
+        horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.ORANGE_WHITE_FACTORY_TILES);
 
         blockWithItem(ModBlocks.BLACK_ARCADE_CARPET);
 
@@ -50,11 +57,16 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.RED_LARGE_FLOORTILE);
         blockWithItem(ModBlocks.YELLOW_LARGE_FLOORTILE);
         blockWithItem(ModBlocks.WHITE_LARGE_FLOORTILE);
+        blockWithItem(ModBlocks.PINK_LARGE_FLOORTILE);
+        blockWithItem(ModBlocks.GREEN_LARGE_FLOORTILE);
+        blockWithItem(ModBlocks.PURPLE_LARGE_FLOORTILE);
+        blockWithItem(ModBlocks.LIGHT_BLUE_LARGE_FLOORTILE);
+        blockWithItem(ModBlocks.ORANGE_LARGE_FLOORTILE);
         blockWithItem(ModBlocks.SECURITY_OFFICE_FLOORTILE);
 
         blockWithItem(ModBlocks.CONCRETE_FLOORING);
 
-        blockWithItem(ModBlocks.GREY_WOOD_PLANKS);
+        blockWithItem(ModBlocks.GRAY_WOOD_PLANKS);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock){

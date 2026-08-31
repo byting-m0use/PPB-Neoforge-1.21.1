@@ -27,14 +27,17 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     protected void generate() {
         dropSelf(ModBlocks.SQUARE_VANILLA_BRICKS.get());
         dropSelf(ModBlocks.BIG_VANILLA_BRICKS.get());
+        dropSelf(ModBlocks.DIAGONAL_VANILLA_BRICKS.get());
 
         dropSelf(ModBlocks.SQUARE_WHITE_BRICKS.get());
         dropSelf(ModBlocks.BIG_WHITE_BRICKS.get());
         dropSelf(ModBlocks.WHITE_BRICKS.get());
+        dropSelf(ModBlocks.DIAGONAL_WHITE_BRICKS.get());
 
         dropSelf(ModBlocks.SQUARE_BLACK_BRICKS.get());
         dropSelf(ModBlocks.BIG_BLACK_BRICKS.get());
         dropSelf(ModBlocks.BLACK_BRICKS.get());
+        dropSelf(ModBlocks.DIAGONAL_BLACK_BRICKS.get());
 
         dropSelf(ModBlocks.PLUSH_BRICKS.get());
         dropSelf(ModBlocks.BIG_PLUSH_BRICKS.get());
@@ -46,6 +49,11 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.YELLOW_WHITE_FACTORY_TILES.get());
         dropSelf(ModBlocks.RED_WHITE_FACTORY_TILES.get());
         dropSelf(ModBlocks.BLUE_WHITE_FACTORY_TILES.get());
+        dropSelf(ModBlocks.PINK_WHITE_FACTORY_TILES.get());
+        dropSelf(ModBlocks.GREEN_WHITE_FACTORY_TILES.get());
+        dropSelf(ModBlocks.PURPLE_WHITE_FACTORY_TILES.get());
+        dropSelf(ModBlocks.LIGHT_BLUE_WHITE_FACTORY_TILES.get());
+        dropSelf(ModBlocks.ORANGE_WHITE_FACTORY_TILES.get());
 
         dropSelf(ModBlocks.BLACK_ARCADE_CARPET.get());
 
@@ -53,9 +61,14 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.BLUE_LARGE_FLOORTILE.get());
         dropSelf(ModBlocks.YELLOW_LARGE_FLOORTILE.get());
         dropSelf(ModBlocks.RED_LARGE_FLOORTILE.get());
+        dropSelf(ModBlocks.PINK_LARGE_FLOORTILE.get());
+        dropSelf(ModBlocks.GREEN_LARGE_FLOORTILE.get());
+        dropSelf(ModBlocks.PURPLE_LARGE_FLOORTILE.get());
+        dropSelf(ModBlocks.LIGHT_BLUE_LARGE_FLOORTILE.get());
+        dropSelf(ModBlocks.ORANGE_LARGE_FLOORTILE.get());
         dropSelf(ModBlocks.SECURITY_OFFICE_FLOORTILE.get());
 
-        dropSelf(ModBlocks.GREY_WOOD_PLANKS.get());
+        dropSelf(ModBlocks.GRAY_WOOD_PLANKS.get());
 
         dropSelf(ModBlocks.CONCRETE_FLOORING.get());
     }

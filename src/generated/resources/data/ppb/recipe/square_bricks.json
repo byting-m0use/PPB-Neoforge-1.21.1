@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "ppb:bricks_square"
+    },
+    {
+      "tag": "ppb:soap"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ppb:square_bricks"
+  }
+}

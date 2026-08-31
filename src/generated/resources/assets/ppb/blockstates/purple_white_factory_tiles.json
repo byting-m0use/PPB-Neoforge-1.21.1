@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "ppb:block/purple_white_factory_tiles_east"
+    },
+    "facing=north": {
+      "model": "ppb:block/purple_white_factory_tiles_north"
+    },
+    "facing=south": {
+      "model": "ppb:block/purple_white_factory_tiles_south"
+    },
+    "facing=west": {
+      "model": "ppb:block/purple_white_factory_tiles_west"
+    }
+  }
+}

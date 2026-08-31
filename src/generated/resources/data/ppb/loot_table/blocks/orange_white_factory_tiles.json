@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ppb:orange_white_factory_tiles"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "ppb:blocks/orange_white_factory_tiles"
+}

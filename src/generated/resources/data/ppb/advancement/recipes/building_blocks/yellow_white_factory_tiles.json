@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ppb:yellow_white_factory_tiles"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_factory_tile": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ppb:white_factory_tiles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_white_factory_tile"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ppb:yellow_white_factory_tiles"
+    ]
+  }
+}

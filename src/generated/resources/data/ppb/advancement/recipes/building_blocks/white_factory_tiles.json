@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ppb:white_factory_tiles"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_floortile": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ppb:white_large_floortile"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_white_floortile"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ppb:white_factory_tiles"
+    ]
+  }
+}

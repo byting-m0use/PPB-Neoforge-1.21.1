@@ -19,6 +19,8 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         handheldItem(ModItems.OMNITOOL.get());
+        basicItem(ModItems.SOAP.get());
+        basicItem(ModItems.BUBBA_SOAP.get());
     }
 
     private void buttonItem(DeferredBlock<?> deferredBlock, DeferredBlock<Block> baseBlock){

@@ -18,6 +18,15 @@ public class ModTags {
     }
 
     public static class Items{
+
+        public static final TagKey<Item> SOAP = createTag("soap");
+
+        public static final TagKey<Item> BRICKS = createTag("bricks");
+        public static final TagKey<Item> BRICKS_BIG = createTag("bricks_big");
+        public static final TagKey<Item> BRICKS_SQUARE = createTag("bricks_square");
+        public static final TagKey<Item> BRICKS_DIAGONAL = createTag("bricks_diagonal");
+        public static final TagKey<Item> FLOORTILE = createTag("floortile");
+
         private static TagKey<Item> createTag(String name){
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(PoppyPlaytimeBlueprintMod.MOD_ID, name));
         }

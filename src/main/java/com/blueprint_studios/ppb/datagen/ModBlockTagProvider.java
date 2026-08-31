@@ -6,7 +6,6 @@ import com.blueprint_studios.ppb.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
-import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -23,14 +22,17 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.SQUARE_VANILLA_BRICKS.get())
                 .add(ModBlocks.BIG_VANILLA_BRICKS.get())
+                .add(ModBlocks.DIAGONAL_VANILLA_BRICKS.get())
 
                 .add(ModBlocks.SQUARE_WHITE_BRICKS.get())
                 .add(ModBlocks.BIG_WHITE_BRICKS.get())
                 .add(ModBlocks.WHITE_BRICKS.get())
+                .add(ModBlocks.DIAGONAL_WHITE_BRICKS.get())
 
                 .add(ModBlocks.SQUARE_BLACK_BRICKS.get())
                 .add(ModBlocks.BIG_BLACK_BRICKS.get())
                 .add(ModBlocks.BLACK_BRICKS.get())
+                .add(ModBlocks.DIAGONAL_BLACK_BRICKS.get())
 
                 .add(ModBlocks.PLUSH_BRICKS.get())
                 .add(ModBlocks.BIG_PLUSH_BRICKS.get())
@@ -41,16 +43,26 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.WHITE_FACTORY_TILES.get())
                 .add(ModBlocks.YELLOW_WHITE_FACTORY_TILES.get())
                 .add(ModBlocks.RED_WHITE_FACTORY_TILES.get())
+                .add(ModBlocks.BLUE_WHITE_FACTORY_TILES.get())
+                .add(ModBlocks.PINK_WHITE_FACTORY_TILES.get())
+                .add(ModBlocks.GREEN_WHITE_FACTORY_TILES.get())
+                .add(ModBlocks.LIGHT_BLUE_WHITE_FACTORY_TILES.get())
+                .add(ModBlocks.ORANGE_WHITE_FACTORY_TILES.get())
 
                 .add(ModBlocks.RED_LARGE_FLOORTILE.get())
                 .add(ModBlocks.WHITE_LARGE_FLOORTILE.get())
                 .add(ModBlocks.BLUE_LARGE_FLOORTILE.get())
                 .add(ModBlocks.YELLOW_LARGE_FLOORTILE.get())
+                .add(ModBlocks.PINK_LARGE_FLOORTILE.get())
+                .add(ModBlocks.GREEN_LARGE_FLOORTILE.get())
+                .add(ModBlocks.PURPLE_LARGE_FLOORTILE.get())
+                .add(ModBlocks.LIGHT_BLUE_LARGE_FLOORTILE.get())
+                .add(ModBlocks.ORANGE_LARGE_FLOORTILE.get())
                 .add(ModBlocks.SECURITY_OFFICE_FLOORTILE.get())
 
                 .add(ModBlocks.CONCRETE_FLOORING.get())
 
-                .add(ModBlocks.GREY_WOOD_PLANKS.get());
+                .add(ModBlocks.GRAY_WOOD_PLANKS.get());
 
         tag(BlockTags.OCCLUDES_VIBRATION_SIGNALS)
                 .add(ModBlocks.BLACK_ARCADE_CARPET.get());
@@ -64,6 +76,11 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(ModTags.Blocks.OMNI_TOOL_INTERACTABLE)
                 .add(ModBlocks.YELLOW_WHITE_FACTORY_TILES.get())
                 .add(ModBlocks.RED_WHITE_FACTORY_TILES.get())
-                .add(ModBlocks.BLUE_WHITE_FACTORY_TILES.get());
+                .add(ModBlocks.PINK_WHITE_FACTORY_TILES.get())
+                .add(ModBlocks.BLUE_WHITE_FACTORY_TILES.get())
+                .add(ModBlocks.PURPLE_WHITE_FACTORY_TILES.get())
+                .add(ModBlocks.LIGHT_BLUE_WHITE_FACTORY_TILES.get())
+                .add(ModBlocks.ORANGE_WHITE_FACTORY_TILES.get())
+                .add(ModBlocks.GREEN_WHITE_FACTORY_TILES.get());
     }
 }

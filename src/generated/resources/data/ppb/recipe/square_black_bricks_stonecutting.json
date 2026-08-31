@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "ppb:black_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "ppb:square_black_bricks"
+  }
+}

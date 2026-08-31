@@ -6,7 +6,6 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -23,6 +22,8 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("tabs.ppb.items"))
                     .displayItems((itemDisplayParameters, output) -> {
                             output.accept(ModItems.OMNITOOL);
+                            output.accept(ModItems.SOAP);
+                            output.accept(ModItems.BUBBA_SOAP);
                     })
                     .build());
 
@@ -35,18 +36,26 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RED_WHITE_FACTORY_TILES);
                         output.accept(ModBlocks.BLUE_WHITE_FACTORY_TILES);
                         output.accept(ModBlocks.YELLOW_WHITE_FACTORY_TILES);
+                        output.accept(ModBlocks.PINK_WHITE_FACTORY_TILES);
+                        output.accept(ModBlocks.GREEN_WHITE_FACTORY_TILES);
+                        output.accept(ModBlocks.PURPLE_WHITE_FACTORY_TILES);
+                        output.accept(ModBlocks.LIGHT_BLUE_WHITE_FACTORY_TILES);
+                        output.accept(ModBlocks.ORANGE_WHITE_FACTORY_TILES);
 
                         output.accept(Blocks.BRICKS);
                         output.accept(ModBlocks.BIG_VANILLA_BRICKS);
                         output.accept(ModBlocks.SQUARE_VANILLA_BRICKS);
+                        output.accept(ModBlocks.DIAGONAL_VANILLA_BRICKS);
 
                         output.accept(ModBlocks.WHITE_BRICKS);
                         output.accept(ModBlocks.BIG_WHITE_BRICKS);
                         output.accept(ModBlocks.SQUARE_WHITE_BRICKS);
+                        output.accept(ModBlocks.DIAGONAL_WHITE_BRICKS);
 
                         output.accept(ModBlocks.BLACK_BRICKS);
                         output.accept(ModBlocks.BIG_BLACK_BRICKS);
                         output.accept(ModBlocks.SQUARE_BLACK_BRICKS);
+                        output.accept(ModBlocks.DIAGONAL_BLACK_BRICKS);
 
                         output.accept(ModBlocks.PLUSH_BRICKS);
                         output.accept(ModBlocks.BIG_PLUSH_BRICKS);
@@ -60,12 +69,17 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BLUE_LARGE_FLOORTILE);
                         output.accept(ModBlocks.RED_LARGE_FLOORTILE);
                         output.accept(ModBlocks.YELLOW_LARGE_FLOORTILE);
+                        output.accept(ModBlocks.PINK_LARGE_FLOORTILE);
+                        output.accept(ModBlocks.GREEN_LARGE_FLOORTILE);
+                        output.accept(ModBlocks.PURPLE_LARGE_FLOORTILE);
+                        output.accept(ModBlocks.LIGHT_BLUE_LARGE_FLOORTILE);
+                        output.accept(ModBlocks.ORANGE_LARGE_FLOORTILE);
                         output.accept(ModBlocks.WHITE_LARGE_FLOORTILE);
                         output.accept(ModBlocks.SECURITY_OFFICE_FLOORTILE);
 
                         output.accept(ModBlocks.CONCRETE_FLOORING);
 
-                        output.accept(ModBlocks.GREY_WOOD_PLANKS);
+                        output.accept(ModBlocks.GRAY_WOOD_PLANKS);
                     })
                     .build());
 
