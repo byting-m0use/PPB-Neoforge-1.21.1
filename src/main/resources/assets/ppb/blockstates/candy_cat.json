@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ppb:block/candy_cat"
+    },
+    "facing=south": {
+      "model": "ppb:block/candy_cat",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "ppb:block/candy_cat",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "ppb:block/candy_cat",
+      "y": 270
+    }
+  }
+}

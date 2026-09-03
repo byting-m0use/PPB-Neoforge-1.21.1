@@ -83,6 +83,16 @@ public class ModCreativeModeTabs {
                     })
                     .build());
 
+    public static final Supplier<CreativeModeTab> POPPY_PLAYTIME_TOYS = CREATIVE_MODE_TABS.register("toys",
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModBlocks.CANDY_CAT.get()))
+                    .title(Component.translatable("tabs.ppb.toys"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.BOOGIE_BOT);
+                        output.accept(ModBlocks.CANDY_CAT);
+                    })
+                    .build());
+
     public static void register(IEventBus eventBus){
         CREATIVE_MODE_TABS.register(eventBus);
     }

@@ -51,6 +51,10 @@
 
   "block.ppb.black_arcade_carpet": "Black Arcade Carpet",
 
+  "block.ppb.boogie_bot": "Boogie Bot",
+  "block.ppb.candy_cat": "Candy Cat",
+
   "tabs.ppb.items": "PPT: Items",
-  "tabs.ppb.blocks": "PPT: Blocks"
+  "tabs.ppb.blocks": "PPT: Blocks",
+  "tabs.ppb.toys": "PPT: Toys"
 }
