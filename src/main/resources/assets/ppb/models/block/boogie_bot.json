@@ -6,6 +6,7 @@
 		"0": "ppb:block/boogie_bot",
 		"particle": "ppb:block/boogie_bot"
 	},
+  "render_type" : "translucent",
 	"elements": [
 		{
 			"name": "Cube",

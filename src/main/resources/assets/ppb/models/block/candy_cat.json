@@ -6,6 +6,7 @@
 		"0": "ppb:block/candy_cat",
 		"particle": "ppb:block/candy_cat"
 	},
+  "render_type" : "translucent",
 	"elements": [
 		{
 			"name": "Head",
