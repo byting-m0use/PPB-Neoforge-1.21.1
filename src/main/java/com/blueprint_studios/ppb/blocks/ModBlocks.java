@@ -145,6 +145,9 @@ public class ModBlocks {
     public static DeferredBlock<Block> PLAYTIME_OS = registerBlock("playtime_os",
             () -> new PlaytimeOsBlock(BlockBehaviour.Properties.of().noOcclusion()));
 
+    public static DeferredBlock<Block> BASIC_WALLS_BLACK = registerBlock("basic_walls_black",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
+
    private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

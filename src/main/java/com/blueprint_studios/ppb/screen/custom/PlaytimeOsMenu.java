@@ -16,5 +16,5 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.neoforged.neoforge.items.SlotItemHandler;
 import org.jetbrains.annotations.Nullable;
 
-public class PlaytimeOsMenu extends AbstractContainerMenu {
+public class PlaytimeOsMenu {
 }

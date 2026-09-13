@@ -55,10 +55,10 @@ public class PlaytimeOsBlock extends BaseEntityBlock {
         }
     }
 
-    @Override
-    protected @Nullable MenuProvider getMenuProvider(BlockState state, Level level, BlockPos pos) {
-        return new SimpleMenuProvider(
-                (p_48785_, p_48786_, p_48787_) -> new PlaytimeOsMenu()
-        )
-    }
+    //@Override
+    //protected @Nullable MenuProvider getMenuProvider(BlockState state, Level level, BlockPos pos) {
+        //return new SimpleMenuProvider(
+               // (p_48785_, p_48786_, p_48787_) -> new PlaytimeOsMenu()
+        //)
+    //}
 }
