@@ -1,0 +1,65 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+    "ambientocclusion": false,
+    "render_type": "minecraft:cutout",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "ppb:block/blue_fence",
+		"particle": "ppb:block/blue_fence"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 15.75],
+			"to": [16, 24, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 14]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 6], "texture": "#0"},
+				"east": {"uv": [0, 6, 0.25, 12], "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 6], "texture": "#0"},
+				"west": {"uv": [0.25, 6, 0.5, 12], "texture": "#0"},
+				"up": {"uv": [4.5, 6.25, 0.5, 6], "texture": "#0"},
+				"down": {"uv": [8.5, 6, 4.5, 6.25], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, -3.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0, -3.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_righthand": {
+			"translation": [0, -1.75, -3.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 0, -3.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3.5, -3.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [-18, -141, 0],
+			"translation": [2.5, -0.5, -3.75],
+			"scale": [0.59, 0.59, 0.59]
+		},
+		"head": {
+			"translation": [0, 0, -3.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"fixed": {
+			"translation": [0, 0, -3.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"on_shelf": {
+			"translation": [0, 0, -3.75],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}

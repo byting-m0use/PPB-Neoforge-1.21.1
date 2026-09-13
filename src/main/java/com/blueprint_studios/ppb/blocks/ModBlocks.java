@@ -1,9 +1,7 @@
 package com.blueprint_studios.ppb.blocks;
 
 import com.blueprint_studios.ppb.PoppyPlaytimeBlueprintMod;
-import com.blueprint_studios.ppb.blocks.custom.BoogieBotBlock;
-import com.blueprint_studios.ppb.blocks.custom.CandyCatBlock;
-import com.blueprint_studios.ppb.blocks.custom.FactoryTilesBlock;
+import com.blueprint_studios.ppb.blocks.custom.*;
 import com.blueprint_studios.ppb.items.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -140,6 +138,12 @@ public class ModBlocks {
 
     public static DeferredBlock<Block> CANDY_CAT = registerBlock("candy_cat",
             () -> new CandyCatBlock(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static DeferredBlock<Block> BLUE_FENCE_WALL_DECOR = registerBlock("blue_fence_wall_decor",
+            () -> new BlueFenceWallDecorBlock(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static DeferredBlock<Block> PLAYTIME_OS = registerBlock("playtime_os",
+            () -> new PlaytimeOsBlock(BlockBehaviour.Properties.of().noOcclusion()));
 
    private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

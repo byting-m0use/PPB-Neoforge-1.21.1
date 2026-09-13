@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ppb:block/blue_fence_wall_decor"
+    },
+    "facing=south": {
+      "model": "ppb:block/blue_fence_wall_decor",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "ppb:block/blue_fence_wall_decor",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "ppb:block/blue_fence_wall_decor",
+      "y": 270
+    }
+  }
+}

@@ -80,6 +80,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.CONCRETE_FLOORING);
 
                         output.accept(ModBlocks.GRAY_WOOD_PLANKS);
+
+                        output.accept(ModBlocks.BLUE_FENCE_WALL_DECOR);
                     })
                     .build());
 
