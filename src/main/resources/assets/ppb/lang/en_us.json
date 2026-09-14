@@ -51,6 +51,19 @@
 
   "block.ppb.black_arcade_carpet": "Black Arcade Carpet",
 
+  "block.ppb.basic_walls_black": "Basic Wall Black",
+  "block.ppb.basic_walls_blue": "Basic Wall Blue",
+  "block.ppb.basic_walls_red": "Basic Wall Red",
+  "block.ppb.basic_walls_yellow": "Basic Wall Yellow",
+  "block.ppb.basic_walls_tan": "Basic Wall Tan",
+  "block.ppb.basic_walls_white": "Basic Wall White",
+
+  "block.ppb.gift_shop_wall_blue": "Gift Shop Wall Blue",
+  "block.ppb.gift_shop_wall_red": "Gift Shop Wall Red",
+  "block.ppb.gift_shop_wall_tan": "Gift Shop Wall Tan",
+  "block.ppb.gift_shop_wall_yellow": "Gift Shop Wall Yellow",
+
+
   "block.ppb.boogie_bot": "Boogie Bot",
   "block.ppb.candy_cat": "Candy Cat",
 

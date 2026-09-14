@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ppb:grey_wood_planks"
+          "name": "ppb:boogie_bot"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "ppb:blocks/grey_wood_planks"
+  "random_sequence": "ppb:blocks/boogie_bot"
 }

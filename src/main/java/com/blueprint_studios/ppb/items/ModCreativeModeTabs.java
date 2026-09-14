@@ -82,6 +82,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.GRAY_WOOD_PLANKS);
 
                         output.accept(ModBlocks.BLUE_FENCE_WALL_DECOR);
+
+                        output.accept(ModBlocks.BASIC_WALLS_BLUE);
+                        output.accept(ModBlocks.BASIC_WALLS_RED);
+                        output.accept(ModBlocks.BASIC_WALLS_TAN);
+                        output.accept(ModBlocks.BASIC_WALLS_WHITE);
+                        output.accept(ModBlocks.BASIC_WALLS_BLACK);
+                        output.accept(ModBlocks.BASIC_WALLS_YELLOW);
+
+                        output.accept(ModBlocks.GIFT_SHOP_WALL_BLUE);
+                        output.accept(ModBlocks.GIFT_SHOP_WALL_RED);
+                        output.accept(ModBlocks.GIFT_SHOP_WALL_TAN);
+                        output.accept(ModBlocks.GIFT_SHOP_WALL_YELLOW);
                     })
                     .build());
 

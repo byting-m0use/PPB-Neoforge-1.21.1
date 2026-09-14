@@ -62,7 +62,19 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
                 .add(ModBlocks.CONCRETE_FLOORING.get())
 
-                .add(ModBlocks.GRAY_WOOD_PLANKS.get());
+                .add(ModBlocks.GRAY_WOOD_PLANKS.get())
+
+                .add(ModBlocks.BASIC_WALLS_BLUE.get())
+                .add(ModBlocks.BASIC_WALLS_BLACK.get())
+                .add(ModBlocks.BASIC_WALLS_RED.get())
+                .add(ModBlocks.BASIC_WALLS_WHITE.get())
+                .add(ModBlocks.BASIC_WALLS_YELLOW.get())
+                .add(ModBlocks.BASIC_WALLS_TAN.get())
+
+                .add(ModBlocks.GIFT_SHOP_WALL_BLUE.get())
+                .add(ModBlocks.GIFT_SHOP_WALL_RED.get())
+                .add(ModBlocks.GIFT_SHOP_WALL_TAN.get())
+                .add(ModBlocks.GIFT_SHOP_WALL_YELLOW.get());
 
         tag(BlockTags.OCCLUDES_VIBRATION_SIGNALS)
                 .add(ModBlocks.BLACK_ARCADE_CARPET.get());

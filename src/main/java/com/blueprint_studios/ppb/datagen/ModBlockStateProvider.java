@@ -67,6 +67,18 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.CONCRETE_FLOORING);
 
         blockWithItem(ModBlocks.GRAY_WOOD_PLANKS);
+
+        blockWithItem(ModBlocks.BASIC_WALLS_BLUE);
+        blockWithItem(ModBlocks.BASIC_WALLS_TAN);
+        blockWithItem(ModBlocks.BASIC_WALLS_BLACK);
+        blockWithItem(ModBlocks.BASIC_WALLS_RED);
+        blockWithItem(ModBlocks.BASIC_WALLS_YELLOW);
+        blockWithItem(ModBlocks.BASIC_WALLS_WHITE);
+
+        blockWithItem(ModBlocks.GIFT_SHOP_WALL_RED);
+        blockWithItem(ModBlocks.GIFT_SHOP_WALL_TAN);
+        blockWithItem(ModBlocks.GIFT_SHOP_WALL_BLUE);
+        blockWithItem(ModBlocks.GIFT_SHOP_WALL_YELLOW);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock){

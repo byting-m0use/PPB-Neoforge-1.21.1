@@ -148,6 +148,33 @@ public class ModBlocks {
     public static DeferredBlock<Block> BASIC_WALLS_BLACK = registerBlock("basic_walls_black",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
 
+    public static DeferredBlock<Block> BASIC_WALLS_BLUE = registerBlock("basic_walls_blue",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
+
+    public static DeferredBlock<Block> BASIC_WALLS_RED = registerBlock("basic_walls_red",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
+
+    public static DeferredBlock<Block> BASIC_WALLS_TAN = registerBlock("basic_walls_tan",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
+
+    public static DeferredBlock<Block> BASIC_WALLS_WHITE = registerBlock("basic_walls_white",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
+
+    public static DeferredBlock<Block> BASIC_WALLS_YELLOW = registerBlock("basic_walls_yellow",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
+
+    public static DeferredBlock<Block> GIFT_SHOP_WALL_BLUE = registerBlock("gift_shop_wall_blue",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
+
+    public static DeferredBlock<Block> GIFT_SHOP_WALL_RED = registerBlock("gift_shop_wall_red",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
+
+    public static DeferredBlock<Block> GIFT_SHOP_WALL_TAN = registerBlock("gift_shop_wall_tan",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
+
+    public static DeferredBlock<Block> GIFT_SHOP_WALL_YELLOW = registerBlock("gift_shop_wall_yellow",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
+
    private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

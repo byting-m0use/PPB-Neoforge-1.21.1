@@ -35,6 +35,16 @@
     "ppb:orange_large_floortile",
     "ppb:security_office_floortile",
     "ppb:concrete_flooring",
-    "ppb:gray_wood_planks"
+    "ppb:gray_wood_planks",
+    "ppb:basic_walls_blue",
+    "ppb:basic_walls_black",
+    "ppb:basic_walls_red",
+    "ppb:basic_walls_white",
+    "ppb:basic_walls_yellow",
+    "ppb:basic_walls_tan",
+    "ppb:gift_shop_wall_blue",
+    "ppb:gift_shop_wall_red",
+    "ppb:gift_shop_wall_tan",
+    "ppb:gift_shop_wall_yellow"
   ]
 }
