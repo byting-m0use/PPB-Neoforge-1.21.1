@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ppb:block/boogie_bot_red"
+    },
+    "facing=south": {
+      "model": "ppb:block/boogie_bot_red",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "ppb:block/boogie_bot_red",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "ppb:block/boogie_bot_red",
+      "y": 270
+    }
+  }
+}
