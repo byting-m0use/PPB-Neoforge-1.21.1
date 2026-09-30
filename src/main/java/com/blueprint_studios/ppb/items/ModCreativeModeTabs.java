@@ -103,6 +103,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("tabs.ppb.toys"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.BOOGIE_BOT);
+                        output.accept(ModBlocks.BOOGIE_BOT_RED);
                         output.accept(ModBlocks.CANDY_CAT);
                     })
                     .build());

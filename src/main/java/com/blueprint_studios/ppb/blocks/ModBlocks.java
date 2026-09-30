@@ -136,6 +136,9 @@ public class ModBlocks {
     public static DeferredBlock<Block> BOOGIE_BOT = registerBlock("boogie_bot",
             () -> new BoogieBotBlock(BlockBehaviour.Properties.of().noOcclusion()));
 
+    public static DeferredBlock<Block> BOOGIE_BOT_RED = registerBlock("boogie_bot_red",
+            () -> new BoogieBotBlock(BlockBehaviour.Properties.of().noOcclusion()));
+
     public static DeferredBlock<Block> CANDY_CAT = registerBlock("candy_cat",
             () -> new CandyCatBlock(BlockBehaviour.Properties.of().noOcclusion()));
 
