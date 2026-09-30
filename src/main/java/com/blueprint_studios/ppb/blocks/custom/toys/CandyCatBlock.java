@@ -1,5 +1,6 @@
-package com.blueprint_studios.ppb.blocks.custom;
+package com.blueprint_studios.ppb.blocks.custom.toys;
 
+import com.blueprint_studios.ppb.blocks.custom.WrenchInteractable;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -15,7 +16,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class CandyCatBlock extends HorizontalDirectionalBlock implements WrenchInteractable {
     public static final MapCodec<CandyCatBlock> CODEC = simpleCodec(CandyCatBlock::new);
-    private static final VoxelShape SHAPE = Block.box(3.0, 0.0, 3.0, 13.0, 16.0, 13.0);
+    private static final VoxelShape SHAPE = Block.box(3.0, 0.0, 3.0, 13.0, 7.0, 13.0);
 
     public CandyCatBlock(Properties properties) {
         super(properties);

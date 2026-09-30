@@ -1,4 +1,4 @@
-package com.blueprint_studios.ppb.blocks.custom;
+package com.blueprint_studios.ppb.blocks.custom.decor;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
@@ -13,8 +13,6 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
-import net.minecraft.world.level.material.FluidState;
-import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
@@ -24,10 +22,10 @@ public class BlueFenceWallDecorBlock extends HorizontalDirectionalBlock implemen
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
     protected static final float AABB_OFFSET = 3.0F;
-    protected static final VoxelShape EAST_AABB = Block.box(0.0, 0.0, 0.0, 3.0, 16.0, 16.0);
-    protected static final VoxelShape WEST_AABB = Block.box(13.0, 0.0, 0.0, 16.0, 16.0, 16.0);
-    protected static final VoxelShape SOUTH_AABB = Block.box(0.0, 0.0, 0.0, 16.0, 16.0, 3.0);
-    protected static final VoxelShape NORTH_AABB = Block.box(0.0, 0.0, 13.0, 16.0, 16.0, 16.0);
+    protected static final VoxelShape EAST_AABB = Block.box(0.0, 0.0, 0.0, 3.0, 18.0, 16.0);
+    protected static final VoxelShape WEST_AABB = Block.box(13.0, 0.0, 0.0, 16.0, 18.0, 16.0);
+    protected static final VoxelShape SOUTH_AABB = Block.box(0.0, 0.0, 0.0, 16.0, 18.0, 3.0);
+    protected static final VoxelShape NORTH_AABB = Block.box(0.0, 0.0, 13.0, 16.0, 18.0, 16.0);
 
     public BlueFenceWallDecorBlock(Properties properties) {
         super(properties);

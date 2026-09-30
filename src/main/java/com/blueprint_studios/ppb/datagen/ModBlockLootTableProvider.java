@@ -92,6 +92,10 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         dropSelf(ModBlocks.PLAYTIME_OS.get());
 
+        dropSelf(ModBlocks.HALF_PLASTERED_BRICKS.get());
+        dropSelf(ModBlocks.COLOR_CODER.get());
+        dropSelf(ModBlocks.BOOGIE_BOT_RED.get());
+
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

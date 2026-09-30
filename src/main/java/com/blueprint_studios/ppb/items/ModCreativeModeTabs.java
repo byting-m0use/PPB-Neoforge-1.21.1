@@ -43,6 +43,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ORANGE_WHITE_FACTORY_TILES);
 
                         output.accept(Blocks.BRICKS);
+                        output.accept(ModBlocks.HALF_PLASTERED_BRICKS);
                         output.accept(ModBlocks.BIG_VANILLA_BRICKS);
                         output.accept(ModBlocks.SQUARE_VANILLA_BRICKS);
                         output.accept(ModBlocks.DIAGONAL_VANILLA_BRICKS);
@@ -81,8 +82,6 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.GRAY_WOOD_PLANKS);
 
-                        output.accept(ModBlocks.BLUE_FENCE_WALL_DECOR);
-
                         output.accept(ModBlocks.BASIC_WALLS_BLUE);
                         output.accept(ModBlocks.BASIC_WALLS_RED);
                         output.accept(ModBlocks.BASIC_WALLS_TAN);
@@ -111,9 +110,18 @@ public class ModCreativeModeTabs {
     public static final Supplier<CreativeModeTab> POPPY_PLAYTIME_DECOR = CREATIVE_MODE_TABS.register("decor",
             () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModBlocks.BLUE_FENCE_WALL_DECOR.get()))
-                    .title(Component.translatable("tabs.ppb.blocks"))
+                    .title(Component.translatable("tabs.ppb.decor"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.BLUE_FENCE_WALL_DECOR);
+
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> POPPY_PLAYTIME_FUNCTIONALITY = CREATIVE_MODE_TABS.register("functionality",
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModBlocks.COLOR_CODER.get()))
+                    .title(Component.translatable("tabs.ppb.functionality"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.COLOR_CODER);
 
                     }).build());
 

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ppb:block/color_coder"
+    },
+    "facing=south": {
+      "model": "ppb:block/color_coder",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "ppb:block/color_coder",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "ppb:block/color_coder",
+      "y": 270
+    }
+  }
+}

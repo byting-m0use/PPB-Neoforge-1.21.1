@@ -70,8 +70,12 @@
 
   "block.ppb.blue_fence_wall_decor": "Blue Fence Wall Decor",
 
+  "block.ppb.half_plastered_bricks": "Half-Plastered Bricks",
+  "block.ppb.color_coder": "Color Coder",
+
   "tabs.ppb.items": "PPT: Items",
   "tabs.ppb.blocks": "PPT: Blocks",
   "tabs.ppb.toys": "PPT: Toys",
-  "tabs.ppb.decor": "PPT: Decor"
+  "tabs.ppb.decor": "PPT: Decor",
+  "tabs.ppb.functionality": "PPT: Functionality"
 }

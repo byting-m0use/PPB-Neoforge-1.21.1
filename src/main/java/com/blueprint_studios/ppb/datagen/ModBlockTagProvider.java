@@ -74,7 +74,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.GIFT_SHOP_WALL_BLUE.get())
                 .add(ModBlocks.GIFT_SHOP_WALL_RED.get())
                 .add(ModBlocks.GIFT_SHOP_WALL_TAN.get())
-                .add(ModBlocks.GIFT_SHOP_WALL_YELLOW.get());
+                .add(ModBlocks.GIFT_SHOP_WALL_YELLOW.get())
+                .add(ModBlocks.HALF_PLASTERED_BRICKS.get())
+                .add(ModBlocks.BOOGIE_BOT_RED.get());
 
         tag(BlockTags.OCCLUDES_VIBRATION_SIGNALS)
                 .add(ModBlocks.BLACK_ARCADE_CARPET.get());

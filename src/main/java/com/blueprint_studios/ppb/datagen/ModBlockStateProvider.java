@@ -79,6 +79,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.GIFT_SHOP_WALL_TAN);
         blockWithItem(ModBlocks.GIFT_SHOP_WALL_BLUE);
         blockWithItem(ModBlocks.GIFT_SHOP_WALL_YELLOW);
+
+        blockWithItem(ModBlocks.HALF_PLASTERED_BRICKS);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock){

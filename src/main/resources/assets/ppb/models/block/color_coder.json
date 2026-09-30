@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "ppb:block/colorcode texture",
-		"particle": "ppb:block/colorcode texture"
+		"0": "ppb:block/colorcode_texture",
+		"particle": "ppb:block/colorcode_texture"
 	},
 	"elements": [
 		{
