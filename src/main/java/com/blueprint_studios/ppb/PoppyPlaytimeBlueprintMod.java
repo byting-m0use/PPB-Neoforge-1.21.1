@@ -1,8 +1,9 @@
 package com.blueprint_studios.ppb;
 
-import com.blueprint_studios.ppb.blocks.ModBlocks;
-import com.blueprint_studios.ppb.items.ModCreativeModeTabs;
-import com.blueprint_studios.ppb.items.ModItems;
+import com.blueprint_studios.ppb.client.particles.ModParticles;
+import com.blueprint_studios.ppb.common.blocks.ModBlocks;
+import com.blueprint_studios.ppb.common.items.ModCreativeModeTabs;
+import com.blueprint_studios.ppb.common.items.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -26,6 +27,7 @@ public class PoppyPlaytimeBlueprintMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModParticles.register(modEventBus);
 
         ModCreativeModeTabs.register(modEventBus);
 
