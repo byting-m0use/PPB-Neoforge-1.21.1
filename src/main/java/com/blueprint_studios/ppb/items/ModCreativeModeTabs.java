@@ -107,6 +107,15 @@ public class ModCreativeModeTabs {
                     })
                     .build());
 
+    public static final Supplier<CreativeModeTab> POPPY_PLAYTIME_DECOR = CREATIVE_MODE_TABS.register("decor",
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModBlocks.BLUE_FENCE_WALL_DECOR.get()))
+                    .title(Component.translatable("tabs.ppb.blocks"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.BLUE_FENCE_WALL_DECOR);
+
+                    }).build());
+
     public static void register(IEventBus eventBus){
         CREATIVE_MODE_TABS.register(eventBus);
     }

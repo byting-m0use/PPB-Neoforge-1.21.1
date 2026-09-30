@@ -1,5 +1,8 @@
 package com.blueprint_studios.ppb;
 
+import com.blueprint_studios.ppb.blocks.ModBlocks;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -19,6 +22,8 @@ public class PoppyPlaytimeBlueprintModClient {
 
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLUE_FENCE_WALL_DECOR.get(), RenderType.CUTOUT);
 
     }
 }
