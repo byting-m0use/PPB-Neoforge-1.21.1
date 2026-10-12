@@ -13,8 +13,6 @@ public class ModParticles {
     public static final DeferredRegister<ParticleType<?>> PARTICLE_TYPES =
             DeferredRegister.create(BuiltInRegistries.PARTICLE_TYPE, PoppyPlaytimeBlueprintMod.MOD_ID);
 
-    public static final Supplier<SimpleParticleType> SOAP_PARTICLES =
-            PARTICLE_TYPES.register("soap_particles", () -> new SimpleParticleType(true));
 
     public static void register(IEventBus eventBus) {
         PARTICLE_TYPES.register(eventBus);

@@ -1,7 +1,5 @@
 {
   "values": [
-    "minecraft:bricks",
-    "ppb:black_bricks",
-    "ppb:white_bricks"
+    "minecraft:bricks"
   ]
 }

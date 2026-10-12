@@ -63,6 +63,12 @@
   "block.ppb.gift_shop_wall_tan": "Gift Shop Wall Tan",
   "block.ppb.gift_shop_wall_yellow": "Gift Shop Wall Yellow",
 
+  "block.ppb.small_brick_tiles": "Small Brick Tiles",
+  "block.ppb.big_brick_tiles": "Big Brick Tiles",
+  "block.ppb.black_white_tiles": "Black & White Tiles",
+  "block.ppb.black_grey_tiles": "Black & Grey Tiles",
+  "block.ppb.small_concrete_tiles": "Small Concrete Tiles",
+  "block.ppb.big_concrete_tiles": "Big Concrete Tiles",
 
   "block.ppb.boogie_bot": "Boogie Bot",
   "block.ppb.boogie_bot_red": "Med-Bot",

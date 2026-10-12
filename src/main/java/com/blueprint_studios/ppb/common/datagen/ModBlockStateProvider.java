@@ -21,66 +21,19 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        blockWithItem(ModBlocks.SQUARE_VANILLA_BRICKS);
-        blockWithItem(ModBlocks.BIG_VANILLA_BRICKS);
-        blockWithItem(ModBlocks.DIAGONAL_VANILLA_BRICKS);
-
-        blockWithItem(ModBlocks.SQUARE_WHITE_BRICKS);
-        blockWithItem(ModBlocks.BIG_WHITE_BRICKS);
-        blockWithItem(ModBlocks.WHITE_BRICKS);
-        blockWithItem(ModBlocks.DIAGONAL_WHITE_BRICKS);
-
-        blockWithItem(ModBlocks.SQUARE_BLACK_BRICKS);
-        blockWithItem(ModBlocks.BIG_BLACK_BRICKS);
-        blockWithItem(ModBlocks.BLACK_BRICKS);
-        blockWithItem(ModBlocks.DIAGONAL_BLACK_BRICKS);
-
-        blockWithItem(ModBlocks.PLUSH_BRICKS);
-        blockWithItem(ModBlocks.BIG_PLUSH_BRICKS);
-        blockWithItem(ModBlocks.WHITE_RED_BIG_PLUSH_BRICKS);
-        blockWithItem(ModBlocks.WHITE_BLUE_BIG_PLUSH_BRICKS);
-        blockWithItem(ModBlocks.WHITE_YELLOW_BIG_PLUSH_BRICKS);
 
         blockWithItem(ModBlocks.WHITE_FACTORY_TILES);
         horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.YELLOW_WHITE_FACTORY_TILES);
         horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.RED_WHITE_FACTORY_TILES);
         horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.BLUE_WHITE_FACTORY_TILES);
-        horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.PINK_WHITE_FACTORY_TILES);
-        horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.GREEN_WHITE_FACTORY_TILES);
-        horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.PURPLE_WHITE_FACTORY_TILES);
-        horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.LIGHT_BLUE_WHITE_FACTORY_TILES);
-        horizontalDirectionBlockWithItemDifferentTextures(ModBlocks.ORANGE_WHITE_FACTORY_TILES);
-
-        blockWithItem(ModBlocks.BLACK_ARCADE_CARPET);
-
-        blockWithItem(ModBlocks.BLUE_LARGE_FLOORTILE);
-        blockWithItem(ModBlocks.RED_LARGE_FLOORTILE);
-        blockWithItem(ModBlocks.YELLOW_LARGE_FLOORTILE);
-        blockWithItem(ModBlocks.WHITE_LARGE_FLOORTILE);
-        blockWithItem(ModBlocks.PINK_LARGE_FLOORTILE);
-        blockWithItem(ModBlocks.GREEN_LARGE_FLOORTILE);
-        blockWithItem(ModBlocks.PURPLE_LARGE_FLOORTILE);
-        blockWithItem(ModBlocks.LIGHT_BLUE_LARGE_FLOORTILE);
-        blockWithItem(ModBlocks.ORANGE_LARGE_FLOORTILE);
-        blockWithItem(ModBlocks.SECURITY_OFFICE_FLOORTILE);
-
-        blockWithItem(ModBlocks.CONCRETE_FLOORING);
-
-        blockWithItem(ModBlocks.GRAY_WOOD_PLANKS);
-
-        blockWithItem(ModBlocks.BASIC_WALLS_BLUE);
-        blockWithItem(ModBlocks.BASIC_WALLS_TAN);
-        blockWithItem(ModBlocks.BASIC_WALLS_BLACK);
-        blockWithItem(ModBlocks.BASIC_WALLS_RED);
-        blockWithItem(ModBlocks.BASIC_WALLS_YELLOW);
         blockWithItem(ModBlocks.BASIC_WALLS_WHITE);
 
-        blockWithItem(ModBlocks.GIFT_SHOP_WALL_RED);
-        blockWithItem(ModBlocks.GIFT_SHOP_WALL_TAN);
-        blockWithItem(ModBlocks.GIFT_SHOP_WALL_BLUE);
-        blockWithItem(ModBlocks.GIFT_SHOP_WALL_YELLOW);
-
-        blockWithItem(ModBlocks.HALF_PLASTERED_BRICKS);
+        blockWithItem(ModBlocks.BIG_BRICK_TILES);
+        blockWithItem(ModBlocks.SMALL_BRICK_TILES);
+        blockWithItem(ModBlocks.BIG_CONCRETE_TILES);
+        blockWithItem(ModBlocks.SMALL_CONCRETE_TILES);
+        blockWithItem(ModBlocks.BLACK_GREY_TILES);
+        blockWithItem(ModBlocks.BLACK_WHITE_TILES);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock){

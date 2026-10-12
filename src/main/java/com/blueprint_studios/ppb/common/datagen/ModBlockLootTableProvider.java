@@ -25,64 +25,12 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        dropSelf(ModBlocks.SQUARE_VANILLA_BRICKS.get());
-        dropSelf(ModBlocks.BIG_VANILLA_BRICKS.get());
-        dropSelf(ModBlocks.DIAGONAL_VANILLA_BRICKS.get());
-
-        dropSelf(ModBlocks.SQUARE_WHITE_BRICKS.get());
-        dropSelf(ModBlocks.BIG_WHITE_BRICKS.get());
-        dropSelf(ModBlocks.WHITE_BRICKS.get());
-        dropSelf(ModBlocks.DIAGONAL_WHITE_BRICKS.get());
-
-        dropSelf(ModBlocks.SQUARE_BLACK_BRICKS.get());
-        dropSelf(ModBlocks.BIG_BLACK_BRICKS.get());
-        dropSelf(ModBlocks.BLACK_BRICKS.get());
-        dropSelf(ModBlocks.DIAGONAL_BLACK_BRICKS.get());
-
-        dropSelf(ModBlocks.PLUSH_BRICKS.get());
-        dropSelf(ModBlocks.BIG_PLUSH_BRICKS.get());
-        dropSelf(ModBlocks.WHITE_RED_BIG_PLUSH_BRICKS.get());
-        dropSelf(ModBlocks.WHITE_BLUE_BIG_PLUSH_BRICKS.get());
-        dropSelf(ModBlocks.WHITE_YELLOW_BIG_PLUSH_BRICKS.get());
 
         dropSelf(ModBlocks.WHITE_FACTORY_TILES.get());
         dropSelf(ModBlocks.YELLOW_WHITE_FACTORY_TILES.get());
         dropSelf(ModBlocks.RED_WHITE_FACTORY_TILES.get());
         dropSelf(ModBlocks.BLUE_WHITE_FACTORY_TILES.get());
-        dropSelf(ModBlocks.PINK_WHITE_FACTORY_TILES.get());
-        dropSelf(ModBlocks.GREEN_WHITE_FACTORY_TILES.get());
-        dropSelf(ModBlocks.PURPLE_WHITE_FACTORY_TILES.get());
-        dropSelf(ModBlocks.LIGHT_BLUE_WHITE_FACTORY_TILES.get());
-        dropSelf(ModBlocks.ORANGE_WHITE_FACTORY_TILES.get());
-
-        dropSelf(ModBlocks.BLACK_ARCADE_CARPET.get());
-
-        dropSelf(ModBlocks.WHITE_LARGE_FLOORTILE.get());
-        dropSelf(ModBlocks.BLUE_LARGE_FLOORTILE.get());
-        dropSelf(ModBlocks.YELLOW_LARGE_FLOORTILE.get());
-        dropSelf(ModBlocks.RED_LARGE_FLOORTILE.get());
-        dropSelf(ModBlocks.PINK_LARGE_FLOORTILE.get());
-        dropSelf(ModBlocks.GREEN_LARGE_FLOORTILE.get());
-        dropSelf(ModBlocks.PURPLE_LARGE_FLOORTILE.get());
-        dropSelf(ModBlocks.LIGHT_BLUE_LARGE_FLOORTILE.get());
-        dropSelf(ModBlocks.ORANGE_LARGE_FLOORTILE.get());
-        dropSelf(ModBlocks.SECURITY_OFFICE_FLOORTILE.get());
-
-        dropSelf(ModBlocks.GRAY_WOOD_PLANKS.get());
-
-        dropSelf(ModBlocks.CONCRETE_FLOORING.get());
-
-        dropSelf(ModBlocks.BASIC_WALLS_BLACK.get());
-        dropSelf(ModBlocks.BASIC_WALLS_BLUE.get());
-        dropSelf(ModBlocks.BASIC_WALLS_RED.get());
-        dropSelf(ModBlocks.BASIC_WALLS_TAN.get());
         dropSelf(ModBlocks.BASIC_WALLS_WHITE.get());
-        dropSelf(ModBlocks.BASIC_WALLS_YELLOW.get());
-
-        dropSelf(ModBlocks.GIFT_SHOP_WALL_TAN.get());
-        dropSelf(ModBlocks.GIFT_SHOP_WALL_RED.get());
-        dropSelf(ModBlocks.GIFT_SHOP_WALL_BLUE.get());
-        dropSelf(ModBlocks.GIFT_SHOP_WALL_YELLOW.get());
 
         dropSelf(ModBlocks.BOOGIE_BOT.get());
         dropSelf(ModBlocks.CANDY_CAT.get());
@@ -90,10 +38,15 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.BLUE_FENCE_WALL_DECOR.get());
 
         dropSelf(ModBlocks.PLAYTIME_OS.get());
-
-        dropSelf(ModBlocks.HALF_PLASTERED_BRICKS.get());
         dropSelf(ModBlocks.COLOR_CODER.get());
         dropSelf(ModBlocks.BOOGIE_BOT_RED.get());
+
+        dropSelf(ModBlocks.BIG_CONCRETE_TILES.get());
+        dropSelf(ModBlocks.SMALL_CONCRETE_TILES.get());
+        dropSelf(ModBlocks.BIG_BRICK_TILES.get());
+        dropSelf(ModBlocks.SMALL_BRICK_TILES.get());
+        dropSelf(ModBlocks.BLACK_WHITE_TILES.get());
+        dropSelf(ModBlocks.BLACK_GREY_TILES.get());
 
     }
 
