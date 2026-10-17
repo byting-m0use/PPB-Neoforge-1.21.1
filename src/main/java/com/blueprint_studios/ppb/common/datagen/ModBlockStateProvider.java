@@ -34,6 +34,24 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.SMALL_CONCRETE_TILES);
         blockWithItem(ModBlocks.BLACK_GREY_TILES);
         blockWithItem(ModBlocks.BLACK_WHITE_TILES);
+
+        blockWithItem(ModBlocks.YB_CAUTION_BLOCK);
+        blockWithItem(ModBlocks.BLACK_CARPET);
+        blockWithItem(ModBlocks.BLUE_CARPET);
+        blockWithItem(ModBlocks.RED_CARPET);
+        blockWithItem(ModBlocks.WINE_RED_CARPET);
+        blockWithItem(ModBlocks.YELLOW_CARPET);
+        blockWithItem(ModBlocks.FANCY_BLACK_CARPET);
+        blockWithItem(ModBlocks.FANCY_BLUE_CARPET);
+        blockWithItem(ModBlocks.FANCY_RED_CARPET);
+        blockWithItem(ModBlocks.FANCY_WINE_RED_CARPET);
+        blockWithItem(ModBlocks.FANCY_YELLOW_CARPET);
+        blockWithItem(ModBlocks.PATTERNED_BLACK_CARPET);
+        blockWithItem(ModBlocks.PATTERNED_YELLOW_CARPET);
+        blockWithItem(ModBlocks.WHITE_CONCRETE_TILES);
+        blockWithItem(ModBlocks.YELLOW_CONCRETE_TILES);
+        blockWithItem(ModBlocks.RED_CONCRETE_TILES);
+        blockWithItem(ModBlocks.BLUE_CONCRETE_TILES);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock){

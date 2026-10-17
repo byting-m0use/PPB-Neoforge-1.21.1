@@ -40,11 +40,33 @@ public class ModCreativeModeTabs {
                         output.accept(Blocks.BRICKS);
 
                         output.accept(ModBlocks.BIG_BRICK_TILES);
-                        output.accept(ModBlocks.SMALL_CONCRETE_TILES);
                         output.accept(ModBlocks.SMALL_BRICK_TILES);
+                        output.accept(ModBlocks.SMALL_CONCRETE_TILES);
                         output.accept(ModBlocks.BIG_CONCRETE_TILES);
                         output.accept(ModBlocks.BLACK_GREY_TILES);
                         output.accept(ModBlocks.BLACK_WHITE_TILES);
+
+                        output.accept(ModBlocks.WHITE_CONCRETE_TILES);
+                        output.accept(ModBlocks.RED_CONCRETE_TILES);
+                        output.accept(ModBlocks.BLUE_CONCRETE_TILES);
+                        output.accept(ModBlocks.YELLOW_CONCRETE_TILES);
+
+                        output.accept(ModBlocks.BLACK_CARPET);
+                        output.accept(ModBlocks.BLUE_CARPET);
+                        output.accept(ModBlocks.RED_CARPET);
+                        output.accept(ModBlocks.WINE_RED_CARPET);
+                        output.accept(ModBlocks.YELLOW_CARPET);
+
+                        output.accept(ModBlocks.FANCY_BLACK_CARPET);
+                        output.accept(ModBlocks.FANCY_BLUE_CARPET);
+                        output.accept(ModBlocks.FANCY_YELLOW_CARPET);
+                        output.accept(ModBlocks.FANCY_RED_CARPET);
+                        output.accept(ModBlocks.FANCY_WINE_RED_CARPET);
+                        output.accept(ModBlocks.PATTERNED_BLACK_CARPET);
+                        output.accept(ModBlocks.PATTERNED_YELLOW_CARPET);
+
+                        output.accept(ModBlocks.YB_CAUTION_BLOCK);
+
                     })
                     .build());
 

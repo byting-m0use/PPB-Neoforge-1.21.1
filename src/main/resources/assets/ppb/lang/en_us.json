@@ -70,6 +70,28 @@
   "block.ppb.small_concrete_tiles": "Small Concrete Tiles",
   "block.ppb.big_concrete_tiles": "Big Concrete Tiles",
 
+  "block.ppb.black_carpet": "Black Carpet",
+  "block.ppb.blue_carpet": "Blue Carpet",
+  "block.ppb.red_carpet": "Red Carpet",
+  "block.ppb.wine_red_carpet": "Wine-Red Carpet",
+  "block.ppb.yellow_carpet": "Yellow Carpet",
+
+  "block.ppb.fancy_black_carpet": "Fancy Black Carpet",
+  "block.ppb.fancy_blue_carpet": "Fancy Blue Carpet",
+  "block.ppb.fancy_red_carpet": "Fancy Red Carpet",
+  "block.ppb.fancy_wine_red_carpet": "Fancy Wine-Red Carpet",
+  "block.ppb.fancy_yellow_carpet": "Fancy Yellow Carpet",
+
+  "block.ppb.patterned_black_carpet": "Patterned Black Carpet",
+  "block.ppb.patterned_yellow_carpet": "Patterned Yellow Carpet",
+
+  "block.ppb.white_concrete_tiles": "White Concrete Tiles",
+  "block.ppb.yellow_concrete_tiles": "Yellow Concrete Tiles",
+  "block.ppb.red_concrete_tiles": "Red Concrete Tiles",
+  "block.ppb.blue_concrete_tiles": "Blue Concrete Tiles",
+
+  "block.ppb.yb_caution_block": "Yellow-Black Caution Block",
+
   "block.ppb.boogie_bot": "Boogie Bot",
   "block.ppb.boogie_bot_red": "Med-Bot",
   "block.ppb.candy_cat": "Candy Cat",

@@ -33,7 +33,27 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.BIG_CONCRETE_TILES.get())
                 .add(ModBlocks.SMALL_CONCRETE_TILES.get())
                 .add(ModBlocks.BLACK_GREY_TILES.get())
-                .add(ModBlocks.BLACK_WHITE_TILES.get());
+                .add(ModBlocks.BLACK_WHITE_TILES.get())
+
+                .add(ModBlocks.BLACK_CARPET.get())
+                .add(ModBlocks.BLUE_CARPET.get())
+                .add(ModBlocks.YELLOW_CARPET.get())
+                .add(ModBlocks.RED_CARPET.get())
+                .add(ModBlocks.WINE_RED_CARPET.get())
+                .add(ModBlocks.FANCY_BLACK_CARPET.get())
+                .add(ModBlocks.FANCY_BLUE_CARPET.get())
+                .add(ModBlocks.FANCY_YELLOW_CARPET.get())
+                .add(ModBlocks.FANCY_RED_CARPET.get())
+                .add(ModBlocks.FANCY_WINE_RED_CARPET.get())
+                .add(ModBlocks.PATTERNED_BLACK_CARPET.get())
+                .add(ModBlocks.PATTERNED_YELLOW_CARPET.get())
+                .add(ModBlocks.WHITE_CONCRETE_TILES.get())
+                .add(ModBlocks.BLUE_CONCRETE_TILES.get())
+                .add(ModBlocks.YELLOW_CONCRETE_TILES.get())
+                .add(ModBlocks.RED_CONCRETE_TILES.get())
+                .add(ModBlocks.YB_CAUTION_BLOCK.get());
+
+
 
         tag(ModTags.Blocks.OMNI_TOOL_INTERACTABLE)
                 .add(ModBlocks.YELLOW_WHITE_FACTORY_TILES.get())

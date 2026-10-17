@@ -48,6 +48,24 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.BLACK_WHITE_TILES.get());
         dropSelf(ModBlocks.BLACK_GREY_TILES.get());
 
+        dropSelf(ModBlocks.YB_CAUTION_BLOCK.get());
+        dropSelf(ModBlocks.BLACK_CARPET.get());
+        dropSelf(ModBlocks.BLUE_CARPET.get());
+        dropSelf(ModBlocks.RED_CARPET.get());
+        dropSelf(ModBlocks.YELLOW_CARPET.get());
+        dropSelf(ModBlocks.WINE_RED_CARPET.get());
+        dropSelf(ModBlocks.FANCY_BLACK_CARPET.get());
+        dropSelf(ModBlocks.FANCY_BLUE_CARPET.get());
+        dropSelf(ModBlocks.FANCY_YELLOW_CARPET.get());
+        dropSelf(ModBlocks.FANCY_RED_CARPET.get());
+        dropSelf(ModBlocks.FANCY_WINE_RED_CARPET.get());
+        dropSelf(ModBlocks.PATTERNED_BLACK_CARPET.get());
+        dropSelf(ModBlocks.PATTERNED_YELLOW_CARPET.get());
+        dropSelf(ModBlocks.WHITE_CONCRETE_TILES.get());
+        dropSelf(ModBlocks.RED_CONCRETE_TILES.get());
+        dropSelf(ModBlocks.BLUE_CONCRETE_TILES.get());
+        dropSelf(ModBlocks.YELLOW_CONCRETE_TILES.get());
+
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

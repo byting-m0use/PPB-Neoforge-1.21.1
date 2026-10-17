@@ -75,6 +75,57 @@ public class ModBlocks {
     public static DeferredBlock<Block> BIG_BRICK_TILES = registerBlock("big_brick_tiles",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS)));
 
+    public static DeferredBlock<Block> BLACK_CARPET = registerBlock("black_carpet",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BLACK_WOOL)));
+
+    public static DeferredBlock<Block> BLUE_CARPET = registerBlock("blue_carpet",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_WOOL)));
+
+    public static DeferredBlock<Block> RED_CARPET = registerBlock("red_carpet",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.RED_WOOL)));
+
+    public static DeferredBlock<Block> WINE_RED_CARPET = registerBlock("wine_red_carpet",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.RED_WOOL)));
+
+    public static DeferredBlock<Block> YELLOW_CARPET = registerBlock("yellow_carpet",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_WOOL)));
+
+    public static DeferredBlock<Block> FANCY_BLACK_CARPET = registerBlock("fancy_black_carpet",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BLACK_WOOL)));
+
+    public static DeferredBlock<Block> FANCY_BLUE_CARPET = registerBlock("fancy_blue_carpet",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_WOOL)));
+
+    public static DeferredBlock<Block> FANCY_RED_CARPET = registerBlock("fancy_red_carpet",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.RED_WOOL)));
+
+    public static DeferredBlock<Block> FANCY_WINE_RED_CARPET = registerBlock("fancy_wine_red_carpet",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.RED_WOOL)));
+
+    public static DeferredBlock<Block> FANCY_YELLOW_CARPET = registerBlock("fancy_yellow_carpet",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BLACK_WOOL)));
+
+    public static DeferredBlock<Block> PATTERNED_BLACK_CARPET = registerBlock("patterned_black_carpet",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BLACK_WOOL)));
+
+    public static DeferredBlock<Block> PATTERNED_YELLOW_CARPET = registerBlock("patterned_yellow_carpet",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_WOOL)));
+
+    public static DeferredBlock<Block> WHITE_CONCRETE_TILES = registerBlock("white_concrete_tiles",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
+
+    public static DeferredBlock<Block> YELLOW_CONCRETE_TILES = registerBlock("yellow_concrete_tiles",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
+
+    public static DeferredBlock<Block> RED_CONCRETE_TILES = registerBlock("red_concrete_tiles",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
+
+    public static DeferredBlock<Block> BLUE_CONCRETE_TILES = registerBlock("blue_concrete_tiles",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
+
+    public static DeferredBlock<Block> YB_CAUTION_BLOCK = registerBlock("yb_caution_block",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
+
    private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
