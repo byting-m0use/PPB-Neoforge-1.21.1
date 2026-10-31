@@ -103,6 +103,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BOOGIE_BOT);
                         output.accept(ModBlocks.BOOGIE_BOT_RED);
                         output.accept(ModBlocks.CANDY_CAT);
+                        output.accept(ModBlocks.CAT_BEE);
+                        output.accept(ModBlocks.LIMON);
+                        output.accept(ModBlocks.PET_STONE);
                     })
                     .build());
 

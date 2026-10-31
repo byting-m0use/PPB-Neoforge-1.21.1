@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ppb:block/cat_bee"
+    },
+    "facing=south": {
+      "model": "ppb:block/cat_bee",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "ppb:block/cat_bee",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "ppb:block/cat_bee",
+      "y": 270
+    }
+  }
+}

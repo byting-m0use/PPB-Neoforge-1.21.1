@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ppb:block/limon"
+    },
+    "facing=south": {
+      "model": "ppb:block/limon",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "ppb:block/limon",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "ppb:block/limon",
+      "y": 270
+    }
+  }
+}

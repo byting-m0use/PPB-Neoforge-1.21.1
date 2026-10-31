@@ -7,8 +7,7 @@ import com.blueprint_studios.ppb.common.blocks.custom.decor.MetalBarrel;
 import com.blueprint_studios.ppb.common.blocks.custom.functionality.ColorCoderBlock;
 import com.blueprint_studios.ppb.common.blocks.custom.functionality.PlaytimeOsBlock;
 import com.blueprint_studios.ppb.common.blocks.custom.statue.HuggyWuggyStatue;
-import com.blueprint_studios.ppb.common.blocks.custom.toys.BoogieBotBlock;
-import com.blueprint_studios.ppb.common.blocks.custom.toys.CandyCatBlock;
+import com.blueprint_studios.ppb.common.blocks.custom.toys.*;
 import com.blueprint_studios.ppb.common.items.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -35,15 +34,6 @@ public class ModBlocks {
     
    public static DeferredBlock<FactoryTilesBlock> BLUE_WHITE_FACTORY_TILES = registerBlock("blue_white_factory_tiles",
             () -> new FactoryTilesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS)));
-
-    public static DeferredBlock<Block> BOOGIE_BOT = registerBlock("boogie_bot",
-            () -> new BoogieBotBlock(BlockBehaviour.Properties.of().noOcclusion()));
-
-    public static DeferredBlock<Block> BOOGIE_BOT_RED = registerBlock("boogie_bot_red",
-            () -> new BoogieBotBlock(BlockBehaviour.Properties.of().noOcclusion()));
-
-    public static DeferredBlock<Block> CANDY_CAT = registerBlock("candy_cat",
-            () -> new CandyCatBlock(BlockBehaviour.Properties.of().noOcclusion()));
 
     public static DeferredBlock<Block> BLUE_FENCE_WALL_DECOR = registerBlock("blue_fence_wall_decor",
             () -> new BlueFenceWallDecorBlock(BlockBehaviour.Properties.of().noOcclusion()));
@@ -126,6 +116,9 @@ public class ModBlocks {
     public static DeferredBlock<Block> YB_CAUTION_BLOCK = registerBlock("yb_caution_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
 
+    public static DeferredBlock<Block> POPPY_WALLPAPER = registerBlock("poppy_wallpaper",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.PURPLE_WOOL)));
+
     //BRICKS
     public static DeferredBlock<Block> WHITE_BRICKS = registerBlock("white_bricks",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS)));
@@ -196,6 +189,24 @@ public class ModBlocks {
     public static DeferredBlock<Block> METAL_BARREL_YELLOW = registerBlock("metal_barrel_yellow",
             () -> new MetalBarrel(BlockBehaviour.Properties.of().noOcclusion()));
 
+    //TOYS
+    public static DeferredBlock<Block> BOOGIE_BOT = registerBlock("boogie_bot",
+            () -> new BoogieBotBlock(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static DeferredBlock<Block> BOOGIE_BOT_RED = registerBlock("boogie_bot_red",
+            () -> new BoogieBotBlock(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static DeferredBlock<Block> CANDY_CAT = registerBlock("candy_cat",
+            () -> new CandyCatBlock(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static DeferredBlock<Block> CAT_BEE = registerBlock("cat_bee",
+            () -> new CatBeeBlock(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static DeferredBlock<Block> LIMON = registerBlock("limon",
+            () -> new LimonBlock(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static DeferredBlock<Block> PET_STONE = registerBlock("pet_stone",
+            () -> new PetStoneBlock(BlockBehaviour.Properties.of().noOcclusion()));
 
    private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

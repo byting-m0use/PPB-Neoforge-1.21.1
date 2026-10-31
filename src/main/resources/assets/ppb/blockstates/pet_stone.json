@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ppb:block/pet_stone"
+    },
+    "facing=south": {
+      "model": "ppb:block/pet_stone",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "ppb:block/pet_stone",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "ppb:block/pet_stone",
+      "y": 270
+    }
+  }
+}

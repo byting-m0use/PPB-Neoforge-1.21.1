@@ -5,6 +5,7 @@ import com.blueprint_studios.ppb.common.blocks.ModBlockEntities;
 import com.blueprint_studios.ppb.common.blocks.ModBlocks;
 import com.blueprint_studios.ppb.common.items.ModCreativeModeTabs;
 import com.blueprint_studios.ppb.common.items.ModItems;
+import com.blueprint_studios.ppb.common.sounds.ModSounds;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -30,6 +31,7 @@ public class PoppyPlaytimeBlueprintMod {
         ModBlocks.register(modEventBus);
         ModParticles.register(modEventBus);
         ModBlockEntities.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         ModCreativeModeTabs.register(modEventBus);
 
