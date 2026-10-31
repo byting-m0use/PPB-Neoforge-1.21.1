@@ -113,6 +113,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.BLUE_FENCE_WALL_DECOR);
                         output.accept(ModBlocks.METAL_BARREL_BLUE);
+                        output.accept(ModBlocks.METAL_BARREL_RED);
+                        output.accept(ModBlocks.METAL_BARREL_YELLOW);
 
                     }).build());
 

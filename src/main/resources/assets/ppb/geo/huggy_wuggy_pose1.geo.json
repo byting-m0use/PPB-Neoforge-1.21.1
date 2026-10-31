@@ -56,12 +56,12 @@
 				{
 					"name": "angry",
 					"parent": "head",
-					"pivot": [0, 55, -3],
+					"pivot": [0, 57, 0],
 					"cubes": [
-						{"origin": [-4, 53, -4], "size": [8, 4, 2], "inflate": 0.01, "uv": [70, 0]},
-						{"origin": [-7, 53, -4], "size": [3, 5, 2], "inflate": 0.01, "uv": [70, 11], "mirror": true},
-						{"origin": [4, 53, -4], "size": [3, 5, 2], "inflate": 0.01, "uv": [70, 11]},
-						{"origin": [-4, 50, -4], "size": [8, 3, 2], "inflate": 0.01, "uv": [70, 6]}
+						{"origin": [-4, 55, -1], "size": [8, 4, 2], "inflate": 0.01, "uv": [70, 0]},
+						{"origin": [-7, 55, -1], "size": [3, 5, 2], "inflate": 0.01, "uv": [70, 11], "mirror": true},
+						{"origin": [4, 55, -1], "size": [3, 5, 2], "inflate": 0.01, "uv": [70, 11]},
+						{"origin": [-4, 52, -1], "size": [8, 3, 2], "inflate": 0.01, "uv": [70, 6]}
 					]
 				},
 				{

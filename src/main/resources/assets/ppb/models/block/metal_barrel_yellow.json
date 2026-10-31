@@ -1,0 +1,46 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "ppb:block/metal_barrel_yellow",
+		"particle": "ppb:block/metal_barrel_yellow"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 3],
+			"to": [13, 16, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 2]},
+			"faces": {
+				"north": {"uv": [0, 0, 5, 8], "texture": "#0"},
+				"east": {"uv": [5, 0, 10, 8], "texture": "#0"},
+				"south": {"uv": [0, 8, 5, 16], "texture": "#0"},
+				"west": {"uv": [5, 8, 10, 16], "texture": "#0"},
+				"up": {"uv": [10, 0, 15, 5], "texture": "#0"},
+				"down": {"uv": [10, 5, 15, 10], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.52, 0.53, 0.54]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.52, 0.53, 0.54]
+		},
+		"firstperson_righthand": {
+			"scale": [0.52, 0.53, 0.54]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.52, 0.53, 0.54]
+		},
+		"ground": {
+			"translation": [0, 3.25, 0],
+			"scale": [0.52, 0.53, 0.54]
+		},
+		"gui": {
+			"rotation": [29, -67, 0],
+			"scale": [0.68, 0.67, 0.68]
+		}
+	}
+}

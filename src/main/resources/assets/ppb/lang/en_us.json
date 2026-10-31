@@ -46,6 +46,11 @@
   "block.ppb.black_bricks": "Black Bricks",
   "block.ppb.white_bricks": "White Bricks",
 
+  "block.ppb.metal_barrel_blue": "Metal Barrel (Blue)",
+  "block.ppb.metal_barrel_red": "Metal Barrel (Red)",
+  "block.ppb.metal_barrel_yellow": "Metal Barrel (Yellow)",
+  "block.ppb.huggy_statue": "Huggy Statue",
+
   "tabs.ppb.items": "PPT: Items",
   "tabs.ppb.blocks": "PPT: Blocks",
   "tabs.ppb.toys": "PPT: Toys",

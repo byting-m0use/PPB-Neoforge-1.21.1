@@ -18,6 +18,6 @@ public class HuggyWuggyStatueModel<T extends GeoBlockEntity> extends GeoModel<T>
 
     @Override
     public ResourceLocation getTextureResource(T animatable) {
-        return ResourceLocation.fromNamespaceAndPath("ppb", "textures/block/huggy_vanilla.png");
+        return ResourceLocation.fromNamespaceAndPath("ppb", "textures/block/huggy_wuggy_pose1.png");
     }
 }

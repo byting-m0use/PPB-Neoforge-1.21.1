@@ -187,7 +187,13 @@ public class ModBlocks {
             () -> new HuggyWuggyStatue(BlockBehaviour.Properties.of().noOcclusion().noLootTable()));
 
     //DECOR
-    public static DeferredBlock<Block> METAL_BARREL_BLUE = registerBlock("metal_barrel_blue.json",
+    public static DeferredBlock<Block> METAL_BARREL_BLUE = registerBlock("metal_barrel_blue",
+            () -> new MetalBarrel(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static DeferredBlock<Block> METAL_BARREL_RED = registerBlock("metal_barrel_red",
+            () -> new MetalBarrel(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static DeferredBlock<Block> METAL_BARREL_YELLOW = registerBlock("metal_barrel_yellow",
             () -> new MetalBarrel(BlockBehaviour.Properties.of().noOcclusion()));
 
 

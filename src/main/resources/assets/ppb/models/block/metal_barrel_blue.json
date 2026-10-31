@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "ppb:block/blue_barrel",
-		"particle": "ppb:block/blue_barrel"
+		"0": "ppb:block/metal_barrel_blue",
+		"particle": "ppb:block/metal_barrel_blue"
 	},
 	"elements": [
 		{

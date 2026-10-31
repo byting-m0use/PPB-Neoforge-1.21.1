@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ppb:block/metal_barrel_yellow"
+    },
+    "facing=south": {
+      "model": "ppb:block/metal_barrel_yellow",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "ppb:block/metal_barrel_yellow",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "ppb:block/metal_barrel_yellow",
+      "y": 270
+    }
+  }
+}
