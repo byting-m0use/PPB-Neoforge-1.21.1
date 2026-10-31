@@ -1,6 +1,7 @@
 package com.blueprint_studios.ppb;
 
 import com.blueprint_studios.ppb.client.particles.ModParticles;
+import com.blueprint_studios.ppb.common.blocks.ModBlockEntities;
 import com.blueprint_studios.ppb.common.blocks.ModBlocks;
 import com.blueprint_studios.ppb.common.items.ModCreativeModeTabs;
 import com.blueprint_studios.ppb.common.items.ModItems;
@@ -28,6 +29,7 @@ public class PoppyPlaytimeBlueprintMod {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModParticles.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
 
         ModCreativeModeTabs.register(modEventBus);
 

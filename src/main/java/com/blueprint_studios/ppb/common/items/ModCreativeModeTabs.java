@@ -52,20 +52,45 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.YELLOW_CONCRETE_TILES);
 
                         output.accept(ModBlocks.BLACK_CARPET);
+                        output.accept(ModBlocks.FANCY_BLACK_CARPET);
+                        output.accept(ModBlocks.PATTERNED_BLACK_CARPET);
+
                         output.accept(ModBlocks.BLUE_CARPET);
+                        output.accept(ModBlocks.FANCY_BLUE_CARPET);
                         output.accept(ModBlocks.RED_CARPET);
+                        output.accept(ModBlocks.FANCY_RED_CARPET);
                         output.accept(ModBlocks.WINE_RED_CARPET);
+                        output.accept(ModBlocks.FANCY_WINE_RED_CARPET);
                         output.accept(ModBlocks.YELLOW_CARPET);
 
-                        output.accept(ModBlocks.FANCY_BLACK_CARPET);
-                        output.accept(ModBlocks.FANCY_BLUE_CARPET);
                         output.accept(ModBlocks.FANCY_YELLOW_CARPET);
-                        output.accept(ModBlocks.FANCY_RED_CARPET);
-                        output.accept(ModBlocks.FANCY_WINE_RED_CARPET);
-                        output.accept(ModBlocks.PATTERNED_BLACK_CARPET);
                         output.accept(ModBlocks.PATTERNED_YELLOW_CARPET);
 
                         output.accept(ModBlocks.YB_CAUTION_BLOCK);
+
+                        output.accept(ModBlocks.WHITE_BRICKS);
+                        output.accept(ModBlocks.WHITE_BRICK_STAIRS);
+                        output.accept(ModBlocks.WHITE_BRICK_SLAB);
+
+                        output.accept(ModBlocks.GREY_BRICKS);
+                        output.accept(ModBlocks.GREY_BRICK_STAIRS);
+                        output.accept(ModBlocks.GREY_BRICK_SLAB);
+
+                        output.accept(ModBlocks.BLACK_BRICKS);
+                        output.accept(ModBlocks.BLACK_BRICK_STAIRS);
+                        output.accept(ModBlocks.BLACK_BRICK_SLAB);
+
+                        output.accept(ModBlocks.BLUE_BRICKS);
+                        output.accept(ModBlocks.BLUE_BRICK_STAIRS);
+                        output.accept(ModBlocks.BLUE_BRICK_SLAB);
+
+                        output.accept(ModBlocks.RED_BRICKS);
+                        output.accept(ModBlocks.RED_BRICK_STAIRS);
+                        output.accept(ModBlocks.RED_BRICK_SLAB);
+
+                        output.accept(ModBlocks.YELLOW_BRICKS);
+                        output.accept(ModBlocks.YELLOW_BRICK_STAIRS);
+                        output.accept(ModBlocks.YELLOW_BRICK_SLAB);
 
                     })
                     .build());
@@ -87,6 +112,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("tabs.ppb.decor"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.BLUE_FENCE_WALL_DECOR);
+                        output.accept(ModBlocks.METAL_BARREL_BLUE);
 
                     }).build());
 
@@ -96,6 +122,15 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("tabs.ppb.functionality"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.COLOR_CODER);
+
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> POPPY_PLAYTIME_STATUES = CREATIVE_MODE_TABS.register("statues",
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModBlocks.HUGGY_STATUE.get()))
+                    .title(Component.translatable("tabs.ppb.statues"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.HUGGY_STATUE);
 
                     }).build());
 

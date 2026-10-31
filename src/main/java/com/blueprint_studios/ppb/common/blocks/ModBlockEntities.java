@@ -1,6 +1,7 @@
 package com.blueprint_studios.ppb.common.blocks;
 
 import com.blueprint_studios.ppb.PoppyPlaytimeBlueprintMod;
+import com.blueprint_studios.ppb.common.blocks.entity.HuggyWuggyBlockEntity;
 import com.blueprint_studios.ppb.common.blocks.entity.PlaytimeOsBlockEntity;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.level.block.entity.BlockEntityType;
@@ -16,6 +17,10 @@ public class ModBlockEntities {
     public static final Supplier<BlockEntityType<PlaytimeOsBlockEntity>> PLAYTIME_OS_BE =
             BLOCK_ENTITIES.register("playtime_os_be", () -> BlockEntityType.Builder.of(
                     PlaytimeOsBlockEntity::new, ModBlocks.PLAYTIME_OS.get()).build(null));
+
+    public static final Supplier<BlockEntityType<HuggyWuggyBlockEntity>> HUGGY_STATUE_BE =
+            BLOCK_ENTITIES.register("huggy_statue_be", () -> BlockEntityType.Builder.of(
+                    HuggyWuggyBlockEntity::new, ModBlocks.HUGGY_STATUE.get()).build(null));
 
     public static void register(IEventBus eventBus) {
         BLOCK_ENTITIES.register(eventBus);

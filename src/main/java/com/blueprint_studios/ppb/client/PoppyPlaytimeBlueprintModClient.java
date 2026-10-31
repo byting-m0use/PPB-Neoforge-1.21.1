@@ -1,9 +1,12 @@
 package com.blueprint_studios.ppb.client;
 
 import com.blueprint_studios.ppb.PoppyPlaytimeBlueprintMod;
+import com.blueprint_studios.ppb.client.rendering.HuggyWuggyStatueRenderer;
+import com.blueprint_studios.ppb.common.blocks.ModBlockEntities;
 import com.blueprint_studios.ppb.common.blocks.ModBlocks;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -25,6 +28,8 @@ public class PoppyPlaytimeBlueprintModClient {
     static void onClientSetup(FMLClientSetupEvent event) {
 
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLUE_FENCE_WALL_DECOR.get(), RenderType.CUTOUT);
+
+        BlockEntityRenderers.register(ModBlockEntities.HUGGY_STATUE_BE.get(), HuggyWuggyStatueRenderer::new);
 
     }
 }

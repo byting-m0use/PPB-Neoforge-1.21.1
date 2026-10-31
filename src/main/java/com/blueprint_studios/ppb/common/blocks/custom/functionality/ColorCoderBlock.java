@@ -20,6 +20,7 @@ import org.jetbrains.annotations.Nullable;
 public class ColorCoderBlock extends HorizontalDirectionalBlock {
     public static final MapCodec<ColorCoderBlock> CODEC = simpleCodec(ColorCoderBlock::new);
     private static final VoxelShape BASE = Block.box(0.0, 0.0, 0.0, 3.0, 3.0, 16.0);
+    private static final VoxelShape RED = Block.box(0.0, 0.0, 0.0, 3.0, 3.0, 16.0);
 
     public ColorCoderBlock(Properties properties) {
         super(properties);
@@ -33,6 +34,11 @@ public class ColorCoderBlock extends HorizontalDirectionalBlock {
     @Override
     protected VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
         return BASE;
+    }
+
+    @Override
+    protected VoxelShape getInteractionShape(BlockState state, BlockGetter level, BlockPos pos) {
+        return RED;
     }
 
     @Override

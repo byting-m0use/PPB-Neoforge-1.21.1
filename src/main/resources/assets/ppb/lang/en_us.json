@@ -1,68 +1,6 @@
 {
   "item.ppb.omnitool": "Omni-Tool",
 
-  "item.ppb.soap": "Soap",
-  "item.ppb.bubba_soap": "Bubba Bubbaphant Soap",
-
-  "block.ppb.big_bricks": "Big Bricks",
-  "block.ppb.square_bricks": "Square Bricks",
-  "block.ppb.diagonal_bricks": "Diagonal Bricks",
-
-  "block.ppb.black_bricks": "Black Bricks",
-  "block.ppb.big_black_bricks": "Big Black Bricks",
-  "block.ppb.square_black_bricks": "Square Black Bricks",
-  "block.ppb.diagonal_black_bricks": "Diagonal Black Bricks",
-
-  "block.ppb.white_bricks": "White Bricks",
-  "block.ppb.big_white_bricks": "Big White Bricks",
-  "block.ppb.square_white_bricks": "Square White Bricks",
-  "block.ppb.diagonal_white_bricks": "Diagonal White Bricks",
-
-  "block.ppb.plush_bricks": "Plush Bricks",
-  "block.ppb.big_plush_bricks": "Big Plush Bricks",
-  "block.ppb.white_blue_big_plush_bricks": "Big Blue & White Plush Bricks",
-  "block.ppb.white_red_big_plush_bricks": "Big Red & White Plush Bricks",
-  "block.ppb.white_yellow_big_plush_bricks": "Big Yellow & White Plush Bricks",
-
-  "block.ppb.white_factory_tiles": "White Factory Tiles",
-  "block.ppb.red_white_factory_tiles": "Red & White Factory Tiles",
-  "block.ppb.blue_white_factory_tiles": "Blue & White Factory Tiles",
-  "block.ppb.yellow_white_factory_tiles": "Yellow & White Factory Tiles",
-  "block.ppb.pink_white_factory_tiles": "Pink & White Factory Tiles",
-  "block.ppb.green_white_factory_tiles": "Green & White Factory Tiles",
-  "block.ppb.purple_white_factory_tiles": "Purple & White Factory Tiles",
-  "block.ppb.light_blue_white_factory_tiles": "Light Blue & White Factory Tiles",
-  "block.ppb.orange_white_factory_tiles": "Orange & White Factory Tiles",
-
-  "block.ppb.white_large_floortile": "White Floor Tile",
-  "block.ppb.red_large_floortile": "Red Floor Tile",
-  "block.ppb.blue_large_floortile": "Blue Floor Tile",
-  "block.ppb.yellow_large_floortile": "Yellow Floor Tile",
-  "block.ppb.pink_large_floortile": "Pink Floor Tile",
-  "block.ppb.green_large_floortile": "Green Floor Tile",
-  "block.ppb.purple_large_floortile": "Purple Floor Tile",
-  "block.ppb.light_blue_large_floortile": "Light Blue Floor Tile",
-  "block.ppb.orange_large_floortile": "Orange Floor Tile",
-  "block.ppb.security_office_floortile": "Security Office Floor Tile",
-
-  "block.ppb.concrete_flooring": "Concrete Flooring",
-
-  "block.ppb.gray_wood_planks": "Gray Wood Planks",
-
-  "block.ppb.black_arcade_carpet": "Black Arcade Carpet",
-
-  "block.ppb.basic_walls_black": "Basic Wall Black",
-  "block.ppb.basic_walls_blue": "Basic Wall Blue",
-  "block.ppb.basic_walls_red": "Basic Wall Red",
-  "block.ppb.basic_walls_yellow": "Basic Wall Yellow",
-  "block.ppb.basic_walls_tan": "Basic Wall Tan",
-  "block.ppb.basic_walls_white": "Basic Wall White",
-
-  "block.ppb.gift_shop_wall_blue": "Gift Shop Wall Blue",
-  "block.ppb.gift_shop_wall_red": "Gift Shop Wall Red",
-  "block.ppb.gift_shop_wall_tan": "Gift Shop Wall Tan",
-  "block.ppb.gift_shop_wall_yellow": "Gift Shop Wall Yellow",
-
   "block.ppb.small_brick_tiles": "Small Brick Tiles",
   "block.ppb.big_brick_tiles": "Big Brick Tiles",
   "block.ppb.black_white_tiles": "Black & White Tiles",
@@ -101,9 +39,17 @@
   "block.ppb.half_plastered_bricks": "Half-Plastered Bricks",
   "block.ppb.color_coder": "Color Coder",
 
+  "block.ppb.red_bricks": "Red Bricks",
+  "block.ppb.blue_bricks": "Blue Bricks",
+  "block.ppb.yellow_bricks": "Yellow Bricks",
+  "block.ppb.grey_bricks": "Grey Bricks",
+  "block.ppb.black_bricks": "Black Bricks",
+  "block.ppb.white_bricks": "White Bricks",
+
   "tabs.ppb.items": "PPT: Items",
   "tabs.ppb.blocks": "PPT: Blocks",
   "tabs.ppb.toys": "PPT: Toys",
   "tabs.ppb.decor": "PPT: Decor",
-  "tabs.ppb.functionality": "PPT: Functionality"
+  "tabs.ppb.functionality": "PPT: Functionality",
+  "tabs.ppb.statues": "PPT: Statues"
 }

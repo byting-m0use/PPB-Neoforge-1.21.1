@@ -3,16 +3,16 @@ package com.blueprint_studios.ppb.common.blocks;
 import com.blueprint_studios.ppb.PoppyPlaytimeBlueprintMod;
 import com.blueprint_studios.ppb.common.blocks.custom.*;
 import com.blueprint_studios.ppb.common.blocks.custom.decor.BlueFenceWallDecorBlock;
+import com.blueprint_studios.ppb.common.blocks.custom.decor.MetalBarrel;
 import com.blueprint_studios.ppb.common.blocks.custom.functionality.ColorCoderBlock;
 import com.blueprint_studios.ppb.common.blocks.custom.functionality.PlaytimeOsBlock;
+import com.blueprint_studios.ppb.common.blocks.custom.statue.HuggyWuggyStatue;
 import com.blueprint_studios.ppb.common.blocks.custom.toys.BoogieBotBlock;
 import com.blueprint_studios.ppb.common.blocks.custom.toys.CandyCatBlock;
 import com.blueprint_studios.ppb.common.items.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -125,6 +125,71 @@ public class ModBlocks {
 
     public static DeferredBlock<Block> YB_CAUTION_BLOCK = registerBlock("yb_caution_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
+
+    //BRICKS
+    public static DeferredBlock<Block> WHITE_BRICKS = registerBlock("white_bricks",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS)));
+
+    public static DeferredBlock<Block> RED_BRICKS = registerBlock("red_bricks",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS)));
+
+    public static DeferredBlock<Block> YELLOW_BRICKS = registerBlock("yellow_bricks",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS)));
+
+    public static DeferredBlock<Block> GREY_BRICKS = registerBlock("grey_bricks",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS)));
+
+    public static DeferredBlock<Block> BLUE_BRICKS = registerBlock("blue_bricks",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS)));
+
+    public static DeferredBlock<Block> BLACK_BRICKS = registerBlock("black_bricks",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS)));
+
+    //STAIRS & SLABS
+    public static DeferredBlock<StairBlock> BLACK_BRICK_STAIRS = registerBlock("black_brick_stairs",
+            () -> new StairBlock(ModBlocks.BLACK_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static DeferredBlock<SlabBlock> BLACK_BRICK_SLAB = registerBlock("black_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static DeferredBlock<StairBlock> BLUE_BRICK_STAIRS = registerBlock("blue_brick_stairs",
+            () -> new StairBlock(ModBlocks.BLUE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static DeferredBlock<SlabBlock> BLUE_BRICK_SLAB = registerBlock("blue_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static DeferredBlock<StairBlock> RED_BRICK_STAIRS = registerBlock("red_brick_stairs",
+            () -> new StairBlock(ModBlocks.RED_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static DeferredBlock<SlabBlock> RED_BRICK_SLAB = registerBlock("red_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static DeferredBlock<StairBlock> WHITE_BRICK_STAIRS = registerBlock("white_brick_stairs",
+            () -> new StairBlock(ModBlocks.WHITE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static DeferredBlock<SlabBlock> WHITE_BRICK_SLAB = registerBlock("white_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static DeferredBlock<StairBlock> YELLOW_BRICK_STAIRS = registerBlock("yellow_brick_stairs",
+            () -> new StairBlock(ModBlocks.YELLOW_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static DeferredBlock<SlabBlock> YELLOW_BRICK_SLAB = registerBlock("yellow_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static DeferredBlock<StairBlock> GREY_BRICK_STAIRS = registerBlock("grey_brick_stairs",
+            () -> new StairBlock(ModBlocks.GREY_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static DeferredBlock<SlabBlock> GREY_BRICK_SLAB = registerBlock("grey_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    //STATUES
+    public static DeferredBlock<Block> HUGGY_STATUE = registerBlock("huggy_statue",
+            () -> new HuggyWuggyStatue(BlockBehaviour.Properties.of().noOcclusion()));
+
+    //DECOR
+    public static DeferredBlock<Block> METAL_BARREL_BLUE = registerBlock("metal_barrel_blue.json",
+            () -> new MetalBarrel(BlockBehaviour.Properties.of().noOcclusion()));
+
 
    private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
