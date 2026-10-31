@@ -1,0 +1,12 @@
+{
+  "limon": {
+    "category": "block",
+    "subtitle": "sounds.ppb.limon",
+    "sounds": [
+      {
+        "name": "ppb:limon",
+        "stream": false
+      }
+    ]
+  }
+}

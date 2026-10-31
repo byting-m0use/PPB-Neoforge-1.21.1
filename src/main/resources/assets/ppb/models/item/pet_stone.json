@@ -1,0 +1,30 @@
+{
+  "format_version": "1.9.0",
+  "credit": "Made with Blockbench",
+  "texture_size": [32, 32],
+  "textures": {
+    "0": "ppb:block/pet_stone",
+    "particle": "ppb:block/pet_stone"
+  },
+  "elements": [
+    {
+      "from": [4, 0, 3],
+      "to": [12, 3, 13],
+      "rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 3]},
+      "faces": {
+        "north": {"uv": [0, 6.5, 4, 8], "texture": "#0"},
+        "east": {"uv": [0, 5, 5, 6.5], "texture": "#0"},
+        "south": {"uv": [4, 6.5, 8, 8], "texture": "#0"},
+        "west": {"uv": [5, 5, 10, 6.5], "texture": "#0"},
+        "up": {"uv": [0, 0, 4, 5], "texture": "#0"},
+        "down": {"uv": [4, 0, 8, 5], "texture": "#0"}
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [38, 138, 0],
+      "translation": [0, 4.5, 0]
+    }
+  }
+}

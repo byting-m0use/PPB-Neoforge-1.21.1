@@ -33,10 +33,14 @@
   "block.ppb.boogie_bot": "Boogie Bot",
   "block.ppb.boogie_bot_red": "Med-Bot",
   "block.ppb.candy_cat": "Candy Cat",
+  "block.ppb.cat_bee": "Cat Bee",
+  "block.ppb.limon": "Limon",
+  "block.ppb.pet_stone": "Pet Stone",
 
   "block.ppb.blue_fence_wall_decor": "Blue Fence Wall Decor",
 
   "block.ppb.half_plastered_bricks": "Half-Plastered Bricks",
+  "block.ppb.poppy_wallpaper": "Poppy Wallpaper",
   "block.ppb.color_coder": "Color Coder",
 
   "block.ppb.red_bricks": "Red Bricks",
@@ -51,5 +55,7 @@
   "tabs.ppb.toys": "PPT: Toys",
   "tabs.ppb.decor": "PPT: Decor",
   "tabs.ppb.functionality": "PPT: Functionality",
-  "tabs.ppb.statues": "PPT: Statues"
+  "tabs.ppb.statues": "PPT: Statues",
+
+  "sounds.ppb.limon": "Limon"
 }

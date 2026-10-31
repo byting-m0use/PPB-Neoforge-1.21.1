@@ -58,6 +58,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(ModTags.Blocks.OMNI_TOOL_INTERACTABLE)
                 .add(ModBlocks.YELLOW_WHITE_FACTORY_TILES.get())
                 .add(ModBlocks.RED_WHITE_FACTORY_TILES.get())
-                .add(ModBlocks.BLUE_WHITE_FACTORY_TILES.get());
+                .add(ModBlocks.BLUE_WHITE_FACTORY_TILES.get())
+                .add(ModBlocks.BOOGIE_BOT.get())
+                .add(ModBlocks.BOOGIE_BOT_RED.get())
+                .add(ModBlocks.CANDY_CAT.get())
+                .add(ModBlocks.LIMON.get())
+                .add(ModBlocks.PET_STONE.get())
+        ;
     }
 }
