@@ -202,6 +202,9 @@ public class ModBlocks {
     public static DeferredBlock<Block> CAT_BEE = registerBlock("cat_bee",
             () -> new CatBeeBlock(BlockBehaviour.Properties.of().noOcclusion()));
 
+    public static DeferredBlock<Block> BRON = registerBlock("bron",
+            () -> new CatBeeBlock(BlockBehaviour.Properties.of().noOcclusion()));
+
     public static DeferredBlock<Block> LIMON = registerBlock("limon",
             () -> new LimonBlock(BlockBehaviour.Properties.of().noOcclusion()));
 

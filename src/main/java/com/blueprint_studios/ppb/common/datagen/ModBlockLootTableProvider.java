@@ -35,6 +35,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.BOOGIE_BOT.get());
         dropSelf(ModBlocks.CANDY_CAT.get());
         dropSelf(ModBlocks.CAT_BEE.get());
+        dropSelf(ModBlocks.BRON.get());
         dropSelf(ModBlocks.LIMON.get());
         dropSelf(ModBlocks.PET_STONE.get());
 
@@ -96,6 +97,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.YELLOW_BRICK_STAIRS.get());
 
         dropSelf(ModBlocks.METAL_BARREL_BLUE.get());
+        dropSelf(ModBlocks.METAL_BARREL_YELLOW.get());
+        dropSelf(ModBlocks.METAL_BARREL_RED.get());
 
     }
 

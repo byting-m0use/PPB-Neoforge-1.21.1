@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ppb:block/bron"
+    },
+    "facing=south": {
+      "model": "ppb:block/bron",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "ppb:block/bron",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "ppb:block/bron",
+      "y": 270
+    }
+  }
+}

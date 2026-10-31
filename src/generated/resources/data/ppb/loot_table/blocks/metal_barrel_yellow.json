@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ppb:metal_barrel_blue.json"
+          "name": "ppb:metal_barrel_yellow"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "ppb:blocks/metal_barrel_blue.json"
+  "random_sequence": "ppb:blocks/metal_barrel_yellow"
 }
