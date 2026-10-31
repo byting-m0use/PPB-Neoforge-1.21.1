@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "ppb:block/red_bricks",
+    "side": "ppb:block/red_bricks",
+    "top": "ppb:block/red_bricks"
+  }
+}

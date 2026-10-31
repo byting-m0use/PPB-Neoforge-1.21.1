@@ -53,42 +53,42 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.RED_CONCRETE_TILES);
         blockWithItem(ModBlocks.BLUE_CONCRETE_TILES);
 
-        //stairsBlock(ModBlocks.BLUE_BRICK_STAIRS.get(), blockTexture(ModBlocks.BLUE_BRICKS.get()));
-        //slabBlock(ModBlocks.BLUE_BRICK_SLAB.get(), blockTexture(ModBlocks.BLUE_BRICKS.get()), blockTexture(ModBlocks.BLUE_BRICKS.get()));
-        //blockItem(ModBlocks.BLUE_BRICK_STAIRS);
-        //blockItem(ModBlocks.BLUE_BRICK_SLAB);
-
-        //stairsBlock(ModBlocks.BLACK_BRICK_STAIRS.get(), blockTexture(ModBlocks.BLACK_BRICKS.get()));
-        //slabBlock(ModBlocks.BLACK_BRICK_SLAB.get(), blockTexture(ModBlocks.BLACK_BRICKS.get()), blockTexture(ModBlocks.BLACK_BRICKS.get()));
-        //blockItem(ModBlocks.BLACK_BRICK_SLAB);
-        //blockItem(ModBlocks.BLACK_BRICK_STAIRS);
-
-        //stairsBlock(ModBlocks.RED_BRICK_STAIRS.get(), blockTexture(ModBlocks.RED_BRICKS.get()));
-        //slabBlock(ModBlocks.RED_BRICK_SLAB.get(), blockTexture(ModBlocks.RED_BRICKS.get()), blockTexture(ModBlocks.RED_BRICKS.get()));
-        //blockItem(ModBlocks.RED_BRICK_STAIRS);
-        //blockItem(ModBlocks.RED_BRICK_SLAB);
-
-        //stairsBlock(ModBlocks.YELLOW_BRICK_STAIRS.get(), blockTexture(ModBlocks.YELLOW_BRICKS.get()));
-        //slabBlock(ModBlocks.YELLOW_BRICK_SLAB.get(), blockTexture(ModBlocks.YELLOW_BRICKS.get()), blockTexture(ModBlocks.YELLOW_BRICKS.get()));
-        //blockItem(ModBlocks.YELLOW_BRICK_STAIRS);
-        //blockItem(ModBlocks.YELLOW_BRICK_SLAB);
-
-        //stairsBlock(ModBlocks.WHITE_BRICK_STAIRS.get(), blockTexture(ModBlocks.WHITE_BRICKS.get()));
-        //slabBlock(ModBlocks.WHITE_BRICK_SLAB.get(), blockTexture(ModBlocks.WHITE_BRICKS.get()), blockTexture(ModBlocks.WHITE_BRICKS.get()));
-        //blockItem(ModBlocks.WHITE_BRICK_SLAB);
-        //blockItem(ModBlocks.WHITE_BRICK_STAIRS);
-
-        //stairsBlock(ModBlocks.GREY_BRICK_STAIRS.get(), blockTexture(ModBlocks.GREY_BRICKS.get()));
-        //slabBlock(ModBlocks.GREY_BRICK_SLAB.get(), blockTexture(ModBlocks.GREY_BRICKS.get()), blockTexture(ModBlocks.GREY_BRICKS.get()));
-        //blockItem(ModBlocks.GREY_BRICK_SLAB);
-        //blockItem(ModBlocks.GREY_BRICK_STAIRS);
-
         blockWithItem(ModBlocks.BLUE_BRICKS);
         blockWithItem(ModBlocks.GREY_BRICKS);
         blockWithItem(ModBlocks.RED_BRICKS);
         blockWithItem(ModBlocks.YELLOW_BRICKS);
         blockWithItem(ModBlocks.BLACK_BRICKS);
         blockWithItem(ModBlocks.WHITE_BRICKS);
+
+        stairsBlock(ModBlocks.BLUE_BRICK_STAIRS.get(), blockTexture(ModBlocks.BLUE_BRICKS.get()));
+        slabBlock(ModBlocks.BLUE_BRICK_SLAB.get(), blockTexture(ModBlocks.BLUE_BRICKS.get()), blockTexture(ModBlocks.BLUE_BRICKS.get()));
+        blockItem(ModBlocks.BLUE_BRICK_STAIRS);
+        blockItem(ModBlocks.BLUE_BRICK_SLAB);
+
+        stairsBlock(ModBlocks.BLACK_BRICK_STAIRS.get(), blockTexture(ModBlocks.BLACK_BRICKS.get()));
+        slabBlock(ModBlocks.BLACK_BRICK_SLAB.get(), blockTexture(ModBlocks.BLACK_BRICKS.get()), blockTexture(ModBlocks.BLACK_BRICKS.get()));
+        blockItem(ModBlocks.BLACK_BRICK_SLAB);
+        blockItem(ModBlocks.BLACK_BRICK_STAIRS);
+
+        stairsBlock(ModBlocks.RED_BRICK_STAIRS.get(), blockTexture(ModBlocks.RED_BRICKS.get()));
+        slabBlock(ModBlocks.RED_BRICK_SLAB.get(), blockTexture(ModBlocks.RED_BRICKS.get()), blockTexture(ModBlocks.RED_BRICKS.get()));
+        blockItem(ModBlocks.RED_BRICK_STAIRS);
+        blockItem(ModBlocks.RED_BRICK_SLAB);
+
+        stairsBlock(ModBlocks.YELLOW_BRICK_STAIRS.get(), blockTexture(ModBlocks.YELLOW_BRICKS.get()));
+        slabBlock(ModBlocks.YELLOW_BRICK_SLAB.get(), blockTexture(ModBlocks.YELLOW_BRICKS.get()), blockTexture(ModBlocks.YELLOW_BRICKS.get()));
+        blockItem(ModBlocks.YELLOW_BRICK_STAIRS);
+        blockItem(ModBlocks.YELLOW_BRICK_SLAB);
+
+        stairsBlock(ModBlocks.WHITE_BRICK_STAIRS.get(), blockTexture(ModBlocks.WHITE_BRICKS.get()));
+        slabBlock(ModBlocks.WHITE_BRICK_SLAB.get(), blockTexture(ModBlocks.WHITE_BRICKS.get()), blockTexture(ModBlocks.WHITE_BRICKS.get()));
+        blockItem(ModBlocks.WHITE_BRICK_SLAB);
+        blockItem(ModBlocks.WHITE_BRICK_STAIRS);
+
+        stairsBlock(ModBlocks.GREY_BRICK_STAIRS.get(), blockTexture(ModBlocks.GREY_BRICKS.get()));
+        slabBlock(ModBlocks.GREY_BRICK_SLAB.get(), blockTexture(ModBlocks.GREY_BRICKS.get()), blockTexture(ModBlocks.GREY_BRICKS.get()));
+        blockItem(ModBlocks.GREY_BRICK_SLAB);
+        blockItem(ModBlocks.GREY_BRICK_STAIRS);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock){
@@ -163,6 +163,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
     }
 
     private void blockItem(DeferredBlock<?> deferredBlock){
-        simpleBlockItem(deferredBlock.get(), new ModelFile.UncheckedModelFile("redfoxysfnaf:block/" + deferredBlock.getId().getPath()));
+        simpleBlockItem(deferredBlock.get(), new ModelFile.UncheckedModelFile("ppb:block/" + deferredBlock.getId().getPath()));
     }
 }

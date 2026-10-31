@@ -184,7 +184,7 @@ public class ModBlocks {
 
     //STATUES
     public static DeferredBlock<Block> HUGGY_STATUE = registerBlock("huggy_statue",
-            () -> new HuggyWuggyStatue(BlockBehaviour.Properties.of().noOcclusion()));
+            () -> new HuggyWuggyStatue(BlockBehaviour.Properties.of().noOcclusion().noLootTable()));
 
     //DECOR
     public static DeferredBlock<Block> METAL_BARREL_BLUE = registerBlock("metal_barrel_blue.json",

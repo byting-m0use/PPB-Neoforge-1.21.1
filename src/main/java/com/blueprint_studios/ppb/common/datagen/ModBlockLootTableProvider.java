@@ -90,6 +90,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.YELLOW_BRICK_SLAB.get());
         dropSelf(ModBlocks.YELLOW_BRICK_STAIRS.get());
 
+        dropSelf(ModBlocks.METAL_BARREL_BLUE.get());
+
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

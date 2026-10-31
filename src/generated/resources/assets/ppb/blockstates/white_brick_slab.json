@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ppb:block/white_brick_slab"
+    },
+    "type=double": {
+      "model": "ppb:block/white_bricks"
+    },
+    "type=top": {
+      "model": "ppb:block/white_brick_slab_top"
+    }
+  }
+}

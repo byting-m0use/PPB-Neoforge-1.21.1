@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ppb:block/grey_brick_slab"
+    },
+    "type=double": {
+      "model": "ppb:block/grey_bricks"
+    },
+    "type=top": {
+      "model": "ppb:block/grey_brick_slab_top"
+    }
+  }
+}
