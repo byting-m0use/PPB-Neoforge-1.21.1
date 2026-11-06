@@ -62,6 +62,13 @@
   "tabs.ppb.decor": "PPT: Decor",
   "tabs.ppb.functionality": "PPT: Functionality",
   "tabs.ppb.statues": "PPT: Statues",
+  "tabs.ppb.monsters": "PPT: Monsters",
+
+  "item.ppb.blocks_tab_icon": "Blocks Tab Icon",
+  "item.ppb.decor_tab_icon": "Decor Tab Icon",
+  "item.ppb.monster_statues_tab_icon": "Monster Statues Tab Icon",
+  "item.ppb.monsters_tab_icon": "Monsters Tab Icon",
+  "item.ppb.utility_tab_icon": "Utility Tab Icon",
 
   "sounds.ppb.limon": "Limon"
 }

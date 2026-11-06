@@ -1,6 +1,7 @@
 package com.blueprint_studios.ppb.common.datagen;
 
 import com.blueprint_studios.ppb.PoppyPlaytimeBlueprintMod;
+import com.blueprint_studios.ppb.common.items.ModIcons;
 import com.blueprint_studios.ppb.common.items.ModItems;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
@@ -19,6 +20,13 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         handheldItem(ModItems.OMNITOOL.get());
+
+        handheldItem(ModIcons.MONSTERS_TAB_ICON.get());
+        handheldItem(ModIcons.BLOCKS_TAB_ICON.get());
+        handheldItem(ModIcons.MONSTER_STATUES_TAB_ICON.get());
+        handheldItem(ModIcons.MONSTERS_TAB_ICON.get());
+        handheldItem(ModIcons.UTILITY_TAB_ICON.get());
+        handheldItem(ModIcons.DECOR_TAB_ICON.get());
     }
 
     private void buttonItem(DeferredBlock<?> deferredBlock, DeferredBlock<Block> baseBlock){

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "ppb:item/monster_statues_tab_icon"
+  }
+}
