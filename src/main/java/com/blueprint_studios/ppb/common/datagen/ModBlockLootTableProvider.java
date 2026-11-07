@@ -45,12 +45,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.COLOR_CODER.get());
         dropSelf(ModBlocks.BOOGIE_BOT_RED.get());
 
-        dropSelf(ModBlocks.BIG_CONCRETE_TILES.get());
         dropSelf(ModBlocks.SMALL_CONCRETE_TILES.get());
         dropSelf(ModBlocks.BIG_BRICK_TILES.get());
-        dropSelf(ModBlocks.SMALL_BRICK_TILES.get());
-        dropSelf(ModBlocks.BLACK_WHITE_TILES.get());
-        dropSelf(ModBlocks.BLACK_GREY_TILES.get());
 
         dropSelf(ModBlocks.YB_CAUTION_BLOCK.get());
         dropSelf(ModBlocks.BLACK_CARPET.get());

@@ -29,11 +29,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.BASIC_WALLS_WHITE);
 
         blockWithItem(ModBlocks.BIG_BRICK_TILES);
-        blockWithItem(ModBlocks.SMALL_BRICK_TILES);
-        blockWithItem(ModBlocks.BIG_CONCRETE_TILES);
         blockWithItem(ModBlocks.SMALL_CONCRETE_TILES);
-        blockWithItem(ModBlocks.BLACK_GREY_TILES);
-        blockWithItem(ModBlocks.BLACK_WHITE_TILES);
 
         blockWithItem(ModBlocks.YB_CAUTION_BLOCK);
         blockWithItem(ModBlocks.BLACK_CARPET);

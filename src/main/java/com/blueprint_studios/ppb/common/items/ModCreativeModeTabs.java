@@ -16,21 +16,11 @@ public class ModCreativeModeTabs {
     public static DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, PoppyPlaytimeBlueprintMod.MOD_ID);
 
-    //public static final Supplier<CreativeModeTab> POPPY_PLAYTIME_ITEMS = CREATIVE_MODE_TABS.register("items",
-            //() -> CreativeModeTab.builder()
-                    //.icon(() -> new ItemStack(ModItems.OMNITOOL.get()))
-                    //.title(Component.translatable("tabs.ppb.items"))
-                    //.displayItems((itemDisplayParameters, output) -> {
-                            //output.accept(ModItems.OMNITOOL);
-                    //})
-                    //.build());
-
     public static final Supplier<CreativeModeTab> POPPY_PLAYTIME_BLOCKS = CREATIVE_MODE_TABS.register("blocks",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModIcons.BLOCKS_TAB_ICON.get()))
+                    .icon(() -> new ItemStack(ModBlocks.RED_WHITE_FACTORY_TILES.get()))
                     .title(Component.translatable("tabs.ppb.blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.OMNITOOL);
                         output.accept(ModBlocks.WHITE_FACTORY_TILES);
                         output.accept(ModBlocks.RED_WHITE_FACTORY_TILES);
                         output.accept(ModBlocks.BLUE_WHITE_FACTORY_TILES);
@@ -41,11 +31,7 @@ public class ModCreativeModeTabs {
                         output.accept(Blocks.BRICKS);
 
                         output.accept(ModBlocks.BIG_BRICK_TILES);
-                        output.accept(ModBlocks.SMALL_BRICK_TILES);
                         output.accept(ModBlocks.SMALL_CONCRETE_TILES);
-                        output.accept(ModBlocks.BIG_CONCRETE_TILES);
-                        output.accept(ModBlocks.BLACK_GREY_TILES);
-                        output.accept(ModBlocks.BLACK_WHITE_TILES);
 
                         output.accept(ModBlocks.WHITE_CONCRETE_TILES);
                         output.accept(ModBlocks.RED_CONCRETE_TILES);
@@ -66,6 +52,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.FANCY_YELLOW_CARPET);
                         output.accept(ModBlocks.PATTERNED_YELLOW_CARPET);
+
+                        output.accept(ModBlocks.POPPY_WALLPAPER);
 
                         output.accept(ModBlocks.YB_CAUTION_BLOCK);
 
@@ -96,26 +84,16 @@ public class ModCreativeModeTabs {
                     })
                     .build());
 
-    //public static final Supplier<CreativeModeTab> POPPY_PLAYTIME_TOYS = CREATIVE_MODE_TABS.register("toys",
-            //() -> CreativeModeTab.builder()
-                    //.icon(() -> new ItemStack(ModIcons.BLOCKS_TAB_ICON.get()))
-                    //.title(Component.translatable("tabs.ppb.toys"))
-                    //.displayItems((itemDisplayParameters, output) -> {
-                       // output.accept(ModBlocks.BOOGIE_BOT);
-                        //output.accept(ModBlocks.BOOGIE_BOT_RED);
-                        //output.accept(ModBlocks.CANDY_CAT);
-                        //output.accept(ModBlocks.CAT_BEE);
-                        //output.accept(ModBlocks.BRON);
-                        //output.accept(ModBlocks.LIMON);
-                        //output.accept(ModBlocks.PET_STONE);
-                    //})
-                    //.build());
-
     public static final Supplier<CreativeModeTab> POPPY_PLAYTIME_DECOR = CREATIVE_MODE_TABS.register("decor",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModIcons.DECOR_TAB_ICON.get()))
+                    .icon(() -> new ItemStack(ModBlocks.BLUE_FENCE_WALL_DECOR.get()))
                     .title(Component.translatable("tabs.ppb.decor"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.BLUE_FENCE_WALL_DECOR);
+                        output.accept(ModBlocks.METAL_BARREL_BLUE);
+                        output.accept(ModBlocks.METAL_BARREL_RED);
+                        output.accept(ModBlocks.METAL_BARREL_YELLOW);
+                        //Toys
                         output.accept(ModBlocks.BOOGIE_BOT);
                         output.accept(ModBlocks.BOOGIE_BOT_RED);
                         output.accept(ModBlocks.CANDY_CAT);
@@ -123,35 +101,30 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BRON);
                         output.accept(ModBlocks.LIMON);
                         output.accept(ModBlocks.PET_STONE);
-                        output.accept(ModBlocks.BLUE_FENCE_WALL_DECOR);
-                        output.accept(ModBlocks.METAL_BARREL_BLUE);
-                        output.accept(ModBlocks.METAL_BARREL_RED);
-                        output.accept(ModBlocks.METAL_BARREL_YELLOW);
-
                     }).build());
 
-    public static final Supplier<CreativeModeTab> POPPY_PLAYTIME_FUNCTIONALITY = CREATIVE_MODE_TABS.register("functionality",
+    public static final Supplier<CreativeModeTab> POPPY_PLAYTIME_UTILITY = CREATIVE_MODE_TABS.register("utility",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModIcons.UTILITY_TAB_ICON.get()))
-                    .title(Component.translatable("tabs.ppb.functionality"))
+                    .icon(() -> new ItemStack(ModBlocks.COLOR_CODER.get()))
+                    .title(Component.translatable("tabs.ppb.utility"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.OMNITOOL);
                         output.accept(ModBlocks.COLOR_CODER);
-
                     }).build());
 
-    public static final Supplier<CreativeModeTab> POPPY_PLAYTIME_STATUES = CREATIVE_MODE_TABS.register("statues",
+    public static final Supplier<CreativeModeTab> POPPY_PLAYTIME_MONSTERS = CREATIVE_MODE_TABS.register("monsters",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModIcons.MONSTER_STATUES_TAB_ICON.get()))
-                    .title(Component.translatable("tabs.ppb.statues"))
+                    .icon(() -> new ItemStack(ModBlocks.HUGGY_STATUE.get()))
+                    .title(Component.translatable("tabs.ppb.monsters"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.HUGGY_STATUE);
 
                     }).build());
 
-    public static final Supplier<CreativeModeTab> POPPY_PLAYTIME_MONSTERS = CREATIVE_MODE_TABS.register("monsters",
+    public static final Supplier<CreativeModeTab> POPPY_PLAYTIME_STATUES = CREATIVE_MODE_TABS.register("statues",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModIcons.MONSTERS_TAB_ICON.get()))
-                    .title(Component.translatable("tabs.ppb.monsters"))
+                    .icon(() -> new ItemStack(ModBlocks.HUGGY_STATUE.get()))
+                    .title(Component.translatable("tabs.ppb.statues"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.HUGGY_STATUE);
 

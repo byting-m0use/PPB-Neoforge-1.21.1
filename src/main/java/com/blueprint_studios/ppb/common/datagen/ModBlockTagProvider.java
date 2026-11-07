@@ -29,11 +29,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.BOOGIE_BOT_RED.get())
 
                 .add(ModBlocks.BIG_BRICK_TILES.get())
-                .add(ModBlocks.SMALL_BRICK_TILES.get())
-                .add(ModBlocks.BIG_CONCRETE_TILES.get())
                 .add(ModBlocks.SMALL_CONCRETE_TILES.get())
-                .add(ModBlocks.BLACK_GREY_TILES.get())
-                .add(ModBlocks.BLACK_WHITE_TILES.get())
 
                 .add(ModBlocks.BLACK_CARPET.get())
                 .add(ModBlocks.BLUE_CARPET.get())

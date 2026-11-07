@@ -1,12 +1,16 @@
 {
   "item.ppb.omnitool": "Omni-Tool",
 
+  "block.pbb.white_factory_tiles": "White Factory Tiles",
+  "block.pbb.red_white_factory_tiles": "Red & White Factory Tiles",
+  "block.pbb.blue_white_factory_tiles": "Blue & White Factory Tiles",
+  "block.pbb.yellow_white_factory_tiles": "Yellow & White Factory Tiles",
+
   "block.ppb.small_brick_tiles": "Small Brick Tiles",
   "block.ppb.big_brick_tiles": "Big Brick Tiles",
   "block.ppb.black_white_tiles": "Black & White Tiles",
   "block.ppb.black_grey_tiles": "Black & Gray Tiles",
   "block.ppb.small_concrete_tiles": "Small Concrete Tiles",
-  "block.ppb.big_concrete_tiles": "Big Concrete Tiles",
 
   "block.ppb.black_carpet": "Black Carpet",
   "block.ppb.blue_carpet": "Blue Carpet",
@@ -45,30 +49,34 @@
   "block.ppb.color_coder": "Color Coder",
 
   "block.ppb.red_bricks": "Red Bricks",
+  "block.ppb.red_brick_slab": "Red Brick Slab",
+  "block.ppb.red_brick_stairs": "Red Brick Stairs",
   "block.ppb.blue_bricks": "Blue Bricks",
+  "block.ppb.blue_brick_slab": "Blue Brick Slab",
+  "block.ppb.blue_brick_stairs": "Blue Brick Stairs",
   "block.ppb.yellow_bricks": "Yellow Bricks",
+  "block.ppb.yellow_brick_slab": "Yellow Brick Slab",
+  "block.ppb.yellow_brick_stairs": "Yellow Brick Stairs",
   "block.ppb.grey_bricks": "Gray Bricks",
+  "block.ppb.grey_brick_slab": "Gray Brick Slab",
+  "block.ppb.grey_brick_stairs": "Gray Brick Stairs",
   "block.ppb.black_bricks": "Black Bricks",
+  "block.ppb.black_brick_slab": "Black Brick Slab",
+  "block.ppb.black_brick_stairs": "Black Brick Stairs",
   "block.ppb.white_bricks": "White Bricks",
+  "block.ppb.white_brick_slab": "White Brick Slab",
+  "block.ppb.white_brick_stairs": "White Brick Stairs",
 
   "block.ppb.metal_barrel_blue": "Metal Barrel (Blue)",
   "block.ppb.metal_barrel_red": "Metal Barrel (Red)",
   "block.ppb.metal_barrel_yellow": "Metal Barrel (Yellow)",
   "block.ppb.huggy_statue": "Huggy Statue",
 
-  "tabs.ppb.items": "PPT: Items",
   "tabs.ppb.blocks": "PPT: Blocks",
-  "tabs.ppb.toys": "PPT: Toys",
   "tabs.ppb.decor": "PPT: Decor",
-  "tabs.ppb.functionality": "PPT: Functionality",
+  "tabs.ppb.utility": "PPT: Utility",
   "tabs.ppb.statues": "PPT: Statues",
-  "tabs.ppb.monsters": "PPT: Monsters",
-
-  "item.ppb.blocks_tab_icon": "Blocks Tab Icon",
-  "item.ppb.decor_tab_icon": "Decor Tab Icon",
-  "item.ppb.monster_statues_tab_icon": "Monster Statues Tab Icon",
-  "item.ppb.monsters_tab_icon": "Monsters Tab Icon",
-  "item.ppb.utility_tab_icon": "Utility Tab Icon",
+  "tabs.ppb.monsters": "PPB: Monsters",
 
   "sounds.ppb.limon": "Limon"
 }

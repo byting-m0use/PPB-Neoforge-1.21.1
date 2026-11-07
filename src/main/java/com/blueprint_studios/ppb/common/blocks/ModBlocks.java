@@ -47,20 +47,8 @@ public class ModBlocks {
     public static DeferredBlock<Block> COLOR_CODER = registerBlock("color_coder",
             () -> new ColorCoderBlock(BlockBehaviour.Properties.of().noOcclusion()));
 
-    public static DeferredBlock<Block> BIG_CONCRETE_TILES = registerBlock("big_concrete_tiles",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
-
     public static DeferredBlock<Block> SMALL_CONCRETE_TILES = registerBlock("small_concrete_tiles",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_CONCRETE)));
-
-    public static DeferredBlock<Block> BLACK_WHITE_TILES = registerBlock("black_white_tiles",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS)));
-
-    public static DeferredBlock<Block> BLACK_GREY_TILES = registerBlock("black_grey_tiles",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS)));
-
-    public static DeferredBlock<Block> SMALL_BRICK_TILES = registerBlock("small_brick_tiles",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS)));
 
     public static DeferredBlock<Block> BIG_BRICK_TILES = registerBlock("big_brick_tiles",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BRICKS)));
